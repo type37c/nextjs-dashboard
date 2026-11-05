@@ -1,5 +1,8 @@
 # Oscillator Mind
 
+
+研究紹介のWebジャーナル：**[basin-mv.com](https://basin-mv.com/)** · [OTB21の実験記事](https://basin-mv.com/journal/learning-readiness/) · [English](https://basin-mv.com/en/)
+
 ## 記憶に依存して運動が変わる振動子ネットワーク
 
 **記憶は、振動子の運動、接続による計算、そして学習をどう変えるのか。**

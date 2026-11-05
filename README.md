@@ -8,7 +8,7 @@ Oscillator Mind is a research program by Keisuke Ohtani that starts with individ
 
 The work proceeds from **single-unit properties to connected systems**. Learning readiness is one finding along that path. This public repository introduces the broader program and provides **OTB21 as the first fully bundled reproducible study**.
 
-The GitHub URL still uses the archived tutorial name `nextjs-dashboard`. The project presented here is Oscillator Mind; the old About description and Vercel homepage are unrelated to the research. [Repository history](docs/PUBLISH.md).
+Read the illustrated research journal at **[basin-mv.com](https://basin-mv.com/)** ([English](https://basin-mv.com/en/)), including the [OTB21 study article](https://basin-mv.com/en/journal/learning-readiness/). [Repository history](docs/PUBLISH.md).
 
 ## The starting point: memory changes motion
 
@@ -60,7 +60,7 @@ The new relation was learned in **128/128 conditions in every group**. Each grou
 Python 3.12, CPU only. No API key, GPU or private repository access is needed.
 
 ```bash
-git clone https://github.com/type37c/nextjs-dashboard.git oscillator-mind
+git clone https://github.com/type37c/oscillator-mind.git oscillator-mind
 cd oscillator-mind
 python -m venv .venv
 source .venv/bin/activate
