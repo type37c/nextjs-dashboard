@@ -1,0 +1,38 @@
+{
+  "checked_at": "2026-11-05",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "numba": "0.68.1",
+  "matplotlib": "3.11.2",
+  "fresh_acquisition_trials": 1152,
+  "records_exact_match": true,
+  "old_queries_exact_match": true,
+  "arrays": {
+    "states.npz": {
+      "max_absolute_error": 4.085620730620576e-14,
+      "allclose_2e_12": true,
+      "exact": false
+    },
+    "old_states.npz": {
+      "max_absolute_error": 1.7763568394002505e-15,
+      "allclose_2e_12": true,
+      "exact": false
+    },
+    "inputs.npz": {
+      "max_absolute_error": 0.0,
+      "allclose_2e_12": true,
+      "exact": true
+    },
+    "traces/row9.npz": {
+      "max_absolute_error": 3.552713678800501e-15,
+      "allclose_2e_12": true,
+      "exact": false
+    },
+    "traces/row11.npz": {
+      "max_absolute_error": 5.329070518200751e-15,
+      "allclose_2e_12": true,
+      "exact": false
+    }
+  },
+  "scope": "Same frozen inputs and RNG; reproduction, not independent confirmation."
+}

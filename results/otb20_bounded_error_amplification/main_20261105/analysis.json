@@ -1,0 +1,65 @@
+{
+  "reversed/wait0/normal": {
+    "strict_joint_success": 16,
+    "target_encoded": 32,
+    "target_canonical": 32,
+    "noncurrent_protected": 16,
+    "trials": 32
+  },
+  "reversed/wait0/bounded": {
+    "strict_joint_success": 0,
+    "target_encoded": 0,
+    "target_canonical": 0,
+    "noncurrent_protected": 32,
+    "trials": 32
+  },
+  "reversed/wait0/zero": {
+    "strict_joint_success": 0,
+    "target_encoded": 0,
+    "target_canonical": 0,
+    "noncurrent_protected": 32,
+    "trials": 32
+  },
+  "reversed/wait2048/normal": {
+    "strict_joint_success": 16,
+    "target_encoded": 32,
+    "target_canonical": 32,
+    "noncurrent_protected": 16,
+    "trials": 32
+  },
+  "reversed/wait2048/bounded": {
+    "strict_joint_success": 0,
+    "target_encoded": 0,
+    "target_canonical": 0,
+    "noncurrent_protected": 32,
+    "trials": 32
+  },
+  "reversed/wait2048/zero": {
+    "strict_joint_success": 0,
+    "target_encoded": 0,
+    "target_canonical": 0,
+    "noncurrent_protected": 32,
+    "trials": 32
+  },
+  "reversed/wait4096/normal": {
+    "strict_joint_success": 32,
+    "target_encoded": 32,
+    "target_canonical": 32,
+    "noncurrent_protected": 32,
+    "trials": 32
+  },
+  "reversed/wait4096/bounded": {
+    "strict_joint_success": 0,
+    "target_encoded": 0,
+    "target_canonical": 0,
+    "noncurrent_protected": 32,
+    "trials": 32
+  },
+  "reversed/wait4096/zero": {
+    "strict_joint_success": 0,
+    "target_encoded": 0,
+    "target_canonical": 0,
+    "noncurrent_protected": 32,
+    "trials": 32
+  }
+}

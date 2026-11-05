@@ -1,0 +1,38 @@
+{
+  "kind": "main_after_exploratory_pilot",
+  "pilot_file": "results/otb15_local_error_learning/pilot/pilot_20261104_233446.json",
+  "selection": "alpha=6, tau_e=6000, tau_s=1000, write_steps=8000 succeeded on both pilot seeds for initial learning, retention and operation-0 reversal; chosen before these main seeds. Longer eligibility/stronger input had collateral or reversal failures in pilot and are retained there.",
+  "seeds": [24001, 24002, 24003, 24004, 24005, 24006, 24007, 24008],
+  "base": {
+    "alpha": 6.0,
+    "tau_e": 6000.0,
+    "tau_s": 1000.0,
+    "query_steps": 4096,
+    "cue_step": 1024,
+    "write_steps": 8000,
+    "delay_steps": 1000,
+    "hold_eta": 0.1,
+    "noise": 0.0,
+    "gain": 0.3,
+    "competition": 1.0,
+    "epochs": 2,
+    "reverse_epochs": 2,
+    "retention_steps": 80000
+  },
+  "conditions": {
+    "normal": {},
+    "zero_error": {},
+    "reverse_error": {},
+    "wrong_trace": {},
+    "delay_6000": {"delay_steps": 6000},
+    "delay_16000": {"delay_steps": 16000},
+    "delay_40000": {"delay_steps": 40000},
+    "weak_tilt": {"alpha": 0.2},
+    "tilt_noise": {"noise": 0.08},
+    "numeric_memory": {}
+  },
+  "finite_state_checks": "After every segment, all states finite and u strictly positive; minima/maxima tracked every native step, including inference probes.",
+  "sign_branch_diagnostic": "For normal seed 24001 first operation-0 reversal observation, branch the identical post-prediction state into normal, reversed and zero error updates, then evaluate all held-out profiles. Diagnostic branches do not change the actual training path.",
+  "recorded_native_replay": "normal seed 24001 first initial trial and first reversal trial: full query, delay and write trajectories",
+  "not_claimed": ["unknown-feature discovery", "learned role binding", "autonomous semantics", "all-oscillator implementation", "hardware energy advantage", "scaling law", "third-party preregistration", "LLM superiority"]
+}

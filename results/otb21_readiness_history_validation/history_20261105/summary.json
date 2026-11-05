@@ -1,0 +1,181 @@
+{
+  "kind": "fixed_policy_new_phase_and_deadline_boundary_evaluation",
+  "trials": 1152,
+  "old_queries": 64,
+  "groups": {
+    "1536/usual": {
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 64,
+      "joint_adaptation_and_retention": 64,
+      "untouched_operation1_bands_preserved": 64,
+      "all_noncurrent_bands_preserved": 64,
+      "source_tagged": 128,
+      "pending_before_feedback": 0,
+      "mean_wait": 0.0,
+      "wait_range": [
+        0,
+        0
+      ],
+      "mean_total_live_steps": 14632.0,
+      "max_noncurrent_tilt_bound_at_write": 2.4776029173650773
+    },
+    "1536/fixed4096": {
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 64,
+      "joint_adaptation_and_retention": 64,
+      "untouched_operation1_bands_preserved": 64,
+      "all_noncurrent_bands_preserved": 64,
+      "source_tagged": 128,
+      "pending_before_feedback": 0,
+      "mean_wait": 4096.0,
+      "wait_range": [
+        4096,
+        4096
+      ],
+      "mean_total_live_steps": 18728.0,
+      "max_noncurrent_tilt_bound_at_write": 1.301326227247819
+    },
+    "1536/guard": {
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 128,
+      "joint_adaptation_and_retention": 128,
+      "untouched_operation1_bands_preserved": 128,
+      "all_noncurrent_bands_preserved": 128,
+      "source_tagged": 128,
+      "pending_before_feedback": 0,
+      "mean_wait": 15408.25,
+      "wait_range": [
+        15131,
+        15575
+      ],
+      "mean_total_live_steps": 30040.25,
+      "max_noncurrent_tilt_bound_at_write": 0.27733041578726136
+    },
+    "2048/usual": {
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 64,
+      "joint_adaptation_and_retention": 64,
+      "untouched_operation1_bands_preserved": 64,
+      "all_noncurrent_bands_preserved": 64,
+      "source_tagged": 128,
+      "pending_before_feedback": 0,
+      "mean_wait": 0.0,
+      "wait_range": [
+        0,
+        0
+      ],
+      "mean_total_live_steps": 15144.0,
+      "max_noncurrent_tilt_bound_at_write": 2.2831296558448555
+    },
+    "2048/fixed4096": {
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 64,
+      "joint_adaptation_and_retention": 64,
+      "untouched_operation1_bands_preserved": 64,
+      "all_noncurrent_bands_preserved": 64,
+      "source_tagged": 128,
+      "pending_before_feedback": 0,
+      "mean_wait": 4096.0,
+      "wait_range": [
+        4096,
+        4096
+      ],
+      "mean_total_live_steps": 19240.0,
+      "max_noncurrent_tilt_bound_at_write": 1.2030651476300411
+    },
+    "2048/guard": {
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 128,
+      "joint_adaptation_and_retention": 128,
+      "untouched_operation1_bands_preserved": 128,
+      "all_noncurrent_bands_preserved": 128,
+      "source_tagged": 128,
+      "pending_before_feedback": 0,
+      "mean_wait": 15408.25,
+      "wait_range": [
+        15131,
+        15575
+      ],
+      "mean_total_live_steps": 30552.25,
+      "max_noncurrent_tilt_bound_at_write": 0.26282588095807974
+    },
+    "4096/usual": {
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 64,
+      "joint_adaptation_and_retention": 64,
+      "untouched_operation1_bands_preserved": 64,
+      "all_noncurrent_bands_preserved": 64,
+      "source_tagged": 128,
+      "pending_before_feedback": 0,
+      "mean_wait": 0.0,
+      "wait_range": [
+        0,
+        0
+      ],
+      "mean_total_live_steps": 17192.0,
+      "max_noncurrent_tilt_bound_at_write": 1.6518164311928212
+    },
+    "4096/fixed4096": {
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 128,
+      "joint_adaptation_and_retention": 128,
+      "untouched_operation1_bands_preserved": 128,
+      "all_noncurrent_bands_preserved": 128,
+      "source_tagged": 128,
+      "pending_before_feedback": 0,
+      "mean_wait": 4096.0,
+      "wait_range": [
+        4096,
+        4096
+      ],
+      "mean_total_live_steps": 21288.0,
+      "max_noncurrent_tilt_bound_at_write": 0.8840828950243907
+    },
+    "4096/guard": {
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 128,
+      "joint_adaptation_and_retention": 128,
+      "untouched_operation1_bands_preserved": 128,
+      "all_noncurrent_bands_preserved": 128,
+      "source_tagged": 128,
+      "pending_before_feedback": 0,
+      "mean_wait": 15408.25,
+      "wait_range": [
+        15131,
+        15575
+      ],
+      "mean_total_live_steps": 32600.25,
+      "max_noncurrent_tilt_bound_at_write": 0.2157402066421985
+    }
+  },
+  "source_hashes_unchanged": true,
+  "selected_trace_checks": [
+    {
+      "file": "row9.npz",
+      "row": 9,
+      "policy": "usual",
+      "native_steps": 14632,
+      "noncurrent_bands_preserved_every_step": false,
+      "noncurrent_max_abs_tilt": 1.6957917079234173
+    },
+    {
+      "file": "row11.npz",
+      "row": 11,
+      "policy": "guard",
+      "native_steps": 29996,
+      "noncurrent_bands_preserved_every_step": true,
+      "noncurrent_max_abs_tilt": 0.2220243909578411
+    }
+  ],
+  "elapsed_seconds": 29.44855450000614,
+  "scope": "Four new shared work-phase draws, three query deadlines, eight existing learned seeds and supplied binary context routing. No parameter change after results and no novel semantic world confirmation."
+}

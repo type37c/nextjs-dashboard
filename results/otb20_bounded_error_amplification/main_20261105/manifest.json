@@ -1,0 +1,74 @@
+{
+  "seeds": [
+    24001,
+    24002,
+    24003,
+    24004,
+    24005,
+    24006,
+    24007,
+    24008
+  ],
+  "old_pairs": [
+    2,
+    3
+  ],
+  "current_pairs": [
+    0,
+    1
+  ],
+  "waits": [
+    0,
+    2048,
+    4096
+  ],
+  "policies": [
+    "normal",
+    "bounded",
+    "zero"
+  ],
+  "worlds": [
+    "stable",
+    "reversed_operation0"
+  ],
+  "config": {
+    "alpha": 6.0,
+    "tau_e": 6000.0,
+    "tau_s": 1000.0,
+    "query_steps": 4096,
+    "cue_step": 1024,
+    "write_steps": 8000,
+    "delay_steps": 1000,
+    "hold_eta": 0.1,
+    "noise": 0.0,
+    "gain": 0.3,
+    "competition": 1.0,
+    "epochs": 2,
+    "reverse_epochs": 2,
+    "retention_steps": 80000
+  },
+  "hcrit": 0.3849001794597505,
+  "theta": 0.04510919508112717,
+  "planned_trials": 576,
+  "source_hashes": {
+    "experiments/otb20_bounded_error_amplification/DESIGN.md": "6954a6d2ff2acf732088a3ee77b828c46f1faff0c1e0861b8c59f3547f80fd52",
+    "experiments/otb20_bounded_error_amplification/THEORY.md": "f0a199dc2d68d3a4c2f06d5ff2bf92e7d060c8f9b22d6be49b384272a3c529e6",
+    "experiments/otb20_bounded_error_amplification/run.py": "dd18a4fd4bde5e5c82595c3049db6dea6f3a5514bcd16953481de13e19207264",
+    "experiments/otb20_bounded_error_amplification/verify.py": "f6a7294ca86f2c3dd70fcdc1bd5a31084529731d2a7a7e5074a898b0882f65b9",
+    "experiments/otb15_local_error_learning/MAIN_CONFIG.json": "af5d0c27093a88152a88ee74216b8a30aa905ad517ac084aa0f190749505f432",
+    "experiments/otb15_local_error_learning/model.py": "1f7f02de72b3858e6b22b845630035cd353dcf30bfa201884d587538fbde9d55",
+    "experiments/otb17_learning_readiness/model.py": "0f131560bbd2c5d73742ab11193254cbe46ccb215c0647d8992814e471eebb72",
+    "results/otb15_local_error_learning/main_runs/normal_24001.json": "bcf37aabea50c85d51da57ddd8ddf358c912df329199beffc801fe8abef5f1e9",
+    "results/otb15_local_error_learning/main_runs/normal_24002.json": "f65ab1d04f6f437efae31bcfe304fe21fc706c843948115b81816a66129b2b60",
+    "results/otb15_local_error_learning/main_runs/normal_24003.json": "4391a8ee22f033437eef85d3c82ca3e64318f169825af14823793cad1f18bcf5",
+    "results/otb15_local_error_learning/main_runs/normal_24004.json": "db1674b5d2ad605ff0033cbcede30573462ad403e59a4f2ae65b60ad5795193b",
+    "results/otb15_local_error_learning/main_runs/normal_24005.json": "1e1e2cf0f63992c9c73666254645c9748af0504fb6eac2d6095b8e9f9195c9cc",
+    "results/otb15_local_error_learning/main_runs/normal_24006.json": "5a44a7814e8dd492ca3833340165b32249bed260927ea0bc2a1cab95e500c69d",
+    "results/otb15_local_error_learning/main_runs/normal_24007.json": "0cdefe08f27badeef91e5dba23f90bc864162d883f1ab457d1838049d3c754c9",
+    "results/otb15_local_error_learning/main_runs/normal_24008.json": "989bc055642de03c77df3fbb180f4a1d3982dc90ec71dab6ae0ad80f6a347669"
+  },
+  "live_state_resets": false,
+  "teacher_received_only_after_delay": true,
+  "status": "exploratory_input_amplitude_policy_not_new_core",
+  "frozen_utc": "2026-11-04T16:57:41Z"
+}

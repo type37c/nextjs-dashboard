@@ -1,0 +1,202 @@
+{
+  "passed": true,
+  "trials": 1152,
+  "old_queries": 64,
+  "source_hashes_and_snapshots_checked": true,
+  "phase_rng_and_all_saved_memory_inputs_reconstructed": true,
+  "same_core_and_config_as_otb19_otb20": true,
+  "local_freeze_after_otb20_record": true,
+  "all_saved_es_boundaries_max_error": 2.886579864025407e-15,
+  "all_summary_groups_reconstructed": {
+    "1536/usual": {
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 64,
+      "untouched_operation1_bands_preserved": 64,
+      "all_noncurrent_bands_preserved": 64,
+      "source_tagged": 128,
+      "joint_adaptation_and_retention": 64,
+      "pending_before_feedback": 0,
+      "mean_wait": 0.0,
+      "wait_range": [
+        0,
+        0
+      ],
+      "mean_total_live_steps": 14632.0,
+      "max_noncurrent_tilt_bound_at_write": 2.4776029173650773
+    },
+    "1536/fixed4096": {
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 64,
+      "untouched_operation1_bands_preserved": 64,
+      "all_noncurrent_bands_preserved": 64,
+      "source_tagged": 128,
+      "joint_adaptation_and_retention": 64,
+      "pending_before_feedback": 0,
+      "mean_wait": 4096.0,
+      "wait_range": [
+        4096,
+        4096
+      ],
+      "mean_total_live_steps": 18728.0,
+      "max_noncurrent_tilt_bound_at_write": 1.301326227247819
+    },
+    "1536/guard": {
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 128,
+      "untouched_operation1_bands_preserved": 128,
+      "all_noncurrent_bands_preserved": 128,
+      "source_tagged": 128,
+      "joint_adaptation_and_retention": 128,
+      "pending_before_feedback": 0,
+      "mean_wait": 15408.25,
+      "wait_range": [
+        15131,
+        15575
+      ],
+      "mean_total_live_steps": 30040.25,
+      "max_noncurrent_tilt_bound_at_write": 0.27733041578726136
+    },
+    "2048/usual": {
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 64,
+      "untouched_operation1_bands_preserved": 64,
+      "all_noncurrent_bands_preserved": 64,
+      "source_tagged": 128,
+      "joint_adaptation_and_retention": 64,
+      "pending_before_feedback": 0,
+      "mean_wait": 0.0,
+      "wait_range": [
+        0,
+        0
+      ],
+      "mean_total_live_steps": 15144.0,
+      "max_noncurrent_tilt_bound_at_write": 2.2831296558448555
+    },
+    "2048/fixed4096": {
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 64,
+      "untouched_operation1_bands_preserved": 64,
+      "all_noncurrent_bands_preserved": 64,
+      "source_tagged": 128,
+      "joint_adaptation_and_retention": 64,
+      "pending_before_feedback": 0,
+      "mean_wait": 4096.0,
+      "wait_range": [
+        4096,
+        4096
+      ],
+      "mean_total_live_steps": 19240.0,
+      "max_noncurrent_tilt_bound_at_write": 1.2030651476300411
+    },
+    "2048/guard": {
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 128,
+      "untouched_operation1_bands_preserved": 128,
+      "all_noncurrent_bands_preserved": 128,
+      "source_tagged": 128,
+      "joint_adaptation_and_retention": 128,
+      "pending_before_feedback": 0,
+      "mean_wait": 15408.25,
+      "wait_range": [
+        15131,
+        15575
+      ],
+      "mean_total_live_steps": 30552.25,
+      "max_noncurrent_tilt_bound_at_write": 0.26282588095807974
+    },
+    "4096/usual": {
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 64,
+      "untouched_operation1_bands_preserved": 64,
+      "all_noncurrent_bands_preserved": 64,
+      "source_tagged": 128,
+      "joint_adaptation_and_retention": 64,
+      "pending_before_feedback": 0,
+      "mean_wait": 0.0,
+      "wait_range": [
+        0,
+        0
+      ],
+      "mean_total_live_steps": 17192.0,
+      "max_noncurrent_tilt_bound_at_write": 1.6518164311928212
+    },
+    "4096/fixed4096": {
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 128,
+      "untouched_operation1_bands_preserved": 128,
+      "all_noncurrent_bands_preserved": 128,
+      "source_tagged": 128,
+      "joint_adaptation_and_retention": 128,
+      "pending_before_feedback": 0,
+      "mean_wait": 4096.0,
+      "wait_range": [
+        4096,
+        4096
+      ],
+      "mean_total_live_steps": 21288.0,
+      "max_noncurrent_tilt_bound_at_write": 0.8840828950243907
+    },
+    "4096/guard": {
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 128,
+      "untouched_operation1_bands_preserved": 128,
+      "all_noncurrent_bands_preserved": 128,
+      "source_tagged": 128,
+      "joint_adaptation_and_retention": 128,
+      "pending_before_feedback": 0,
+      "mean_wait": 15408.25,
+      "wait_range": [
+        15131,
+        15575
+      ],
+      "mean_total_live_steps": 32600.25,
+      "max_noncurrent_tilt_bound_at_write": 0.2157402066421985
+    }
+  },
+  "current_context_encoded_correct": 1152,
+  "guard_wait_unique": [
+    15131,
+    15364,
+    15563,
+    15575
+  ],
+  "waiting_delta_zero_s_only_max_tilt_bound": 0.1,
+  "selected_trace_reconstruction": [
+    {
+      "file": "row9.npz",
+      "steps": 14632,
+      "noncurrent_preserved": false,
+      "max_noncurrent_tilt": 1.6957917079234173,
+      "es_max_error": 4.218847493575595e-15,
+      "radial_rk4_max_error": 4.440892098500626e-16
+    },
+    {
+      "file": "row11.npz",
+      "steps": 29996,
+      "noncurrent_preserved": true,
+      "max_noncurrent_tilt": 0.2220243909578411,
+      "es_max_error": 4.218847493575595e-15,
+      "radial_rk4_max_error": 4.440892098500626e-16
+    }
+  ],
+  "scope": "Independent saved-data/closed recurrence audit; no acquisition or dynamics modules imported.",
+  "limitations": [
+    "128 per group equals eight reused memories x four shared synthetic phase draws x two old x two current contexts, not independent semantic worlds.",
+    "Local hashes and timestamps document fixed artifacts; they are not an external preregistration service.",
+    "Protection at every native step is directly checked only on two retained traces; all trials have checked saved boundaries and continuous sufficient bounds.",
+    "The trace audit independently reconstructs e/s, h, and radial RK4; full T7/work trajectories are not independently replayed.",
+    "The 4096 wait was chosen from OTB20 before this acquisition. Guard robustness does not establish an advantage over an optimized longer fixed wait.",
+    "Shorter query deadlines give old eligibility less time to decay before feedback; deadline and learning timing are jointly changed.",
+    "source_tagged means at least one post-cue source event here; pre-cue source events were separately checked against saved event lists.",
+    "No novel semantic family, fully oscillator-based controller, physical efficiency, or general scaling result is established."
+  ]
+}

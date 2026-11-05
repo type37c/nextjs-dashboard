@@ -1,0 +1,318 @@
+{
+  "source_repository": "type37c/oscillator-arithmetic",
+  "source_commit": "e3a5e1e66eae794a7fd56bae5f4d5054a74528c2",
+  "files": [
+    {
+      "path": ".gitignore",
+      "source_blob": "d2c5f616344169d034a2b29dad6e10817d210a5a",
+      "release_sha256": "1d65583655b3da30e4fba296c56b4ddd9b968c7b1b5ecbf359d778e135f96308",
+      "identical_to_source": false
+    },
+    {
+      "path": "README.md",
+      "source_blob": "c23a21434b5450a77b5bd38155c79e33ab297024",
+      "release_sha256": "76a8d76ffc452b78f5882f4199ef80af1199af14b11fa010838d98824673c73f",
+      "identical_to_source": false
+    },
+    {
+      "path": "experiments/otb15_local_error_learning/MAIN_CONFIG.json",
+      "source_blob": "f3d023d9a15c7951b2a785bd3156f44b4bd4d012",
+      "release_sha256": "af5d0c27093a88152a88ee74216b8a30aa905ad517ac084aa0f190749505f432",
+      "identical_to_source": true
+    },
+    {
+      "path": "experiments/otb15_local_error_learning/model.py",
+      "source_blob": "45d822f80cf3d9d02d296d395d5b4d4c4bae75b1",
+      "release_sha256": "1f7f02de72b3858e6b22b845630035cd353dcf30bfa201884d587538fbde9d55",
+      "identical_to_source": true
+    },
+    {
+      "path": "experiments/otb17_learning_readiness/model.py",
+      "source_blob": "2d96461f3200b07f76337b67b0dd5c1d2117b2d0",
+      "release_sha256": "0f131560bbd2c5d73742ab11193254cbe46ccb215c0647d8992814e471eebb72",
+      "identical_to_source": true
+    },
+    {
+      "path": "experiments/otb19_learning_readiness_guard/DESIGN.md",
+      "source_blob": "3801e38c4678c42f7665760f6d1f4bcdb9f8b24c",
+      "release_sha256": "53c877182ee852ea540f20f977a58adb4d70e7ae05fc337c6bd376cfec4ef72a",
+      "identical_to_source": true
+    },
+    {
+      "path": "experiments/otb19_learning_readiness_guard/run.py",
+      "source_blob": "2210bc437915da8a40378d0c920fc373b96ad410",
+      "release_sha256": "731bfaaf23e4b578a28e23c89a3aeedb73defc83bae4bc282ecca1722146b292",
+      "identical_to_source": true
+    },
+    {
+      "path": "experiments/otb21_readiness_history_validation/DESIGN.md",
+      "source_blob": "78a4229e9d5e651c221ab722082a0b2841ce9969",
+      "release_sha256": "012ba9b680f8f92215fa10071e5b90b2e7c90ae9bc001d3aaffde9de36151079",
+      "identical_to_source": true
+    },
+    {
+      "path": "experiments/otb21_readiness_history_validation/README.md",
+      "source_blob": "8b348881dbc6c6fe8885d40cbb7fe625c6bd1f57",
+      "release_sha256": "2df885ff713e3e0983886ea105e9b0ff6c9fb1c1500fdb9acd9d6b99f2f2d61d",
+      "identical_to_source": true
+    },
+    {
+      "path": "experiments/otb21_readiness_history_validation/independent_audit.py",
+      "source_blob": "0c2efc8647794de2e9cd76213fbecdb22643d97e",
+      "release_sha256": "67469b9d4200aaddc6ae8fd95cc05332e55abab26769a8ba1f318a60ebee72f8",
+      "identical_to_source": true
+    },
+    {
+      "path": "experiments/otb21_readiness_history_validation/run.py",
+      "source_blob": "041ae182d37cdfe970c088e2d075095f9576c906",
+      "release_sha256": "01fa8dab371f4172d1abdd460e56401c4295f59b2edb602d1401ac9a7caa7358",
+      "identical_to_source": true
+    },
+    {
+      "path": "requirements.txt",
+      "source_blob": "4b1bc0e109428e67fc5a7f2fa27d74a360f89df2",
+      "release_sha256": "59e5c63a3f22c02a22e633ee6362b1d94857b64ca13e215f547bf13dbeae308d",
+      "identical_to_source": false
+    },
+    {
+      "path": "results/otb15_local_error_learning/main_runs/normal_24001.json",
+      "source_blob": "b980bad23817e5fb1f298f9b92f6a07e27bb1314",
+      "release_sha256": "bcf37aabea50c85d51da57ddd8ddf358c912df329199beffc801fe8abef5f1e9",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb15_local_error_learning/main_runs/normal_24002.json",
+      "source_blob": "4cfc323bcbf1ff737414bb20775d100882095895",
+      "release_sha256": "f65ab1d04f6f437efae31bcfe304fe21fc706c843948115b81816a66129b2b60",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb15_local_error_learning/main_runs/normal_24003.json",
+      "source_blob": "276e83be7f090115ac199798c98575114e5796f0",
+      "release_sha256": "4391a8ee22f033437eef85d3c82ca3e64318f169825af14823793cad1f18bcf5",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb15_local_error_learning/main_runs/normal_24004.json",
+      "source_blob": "35502e985ece2c23da1a04bcfa50be40792cfb78",
+      "release_sha256": "db1674b5d2ad605ff0033cbcede30573462ad403e59a4f2ae65b60ad5795193b",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb15_local_error_learning/main_runs/normal_24005.json",
+      "source_blob": "9dc39a3cffdfb7ff2a7243a6a840e377206e1520",
+      "release_sha256": "1e1e2cf0f63992c9c73666254645c9748af0504fb6eac2d6095b8e9f9195c9cc",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb15_local_error_learning/main_runs/normal_24006.json",
+      "source_blob": "88daa6529e31a711714e2ecb953de32f32e088d6",
+      "release_sha256": "5a44a7814e8dd492ca3833340165b32249bed260927ea0bc2a1cab95e500c69d",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb15_local_error_learning/main_runs/normal_24007.json",
+      "source_blob": "a821489cc9f25513f461222f6fd2104600d66767",
+      "release_sha256": "0cdefe08f27badeef91e5dba23f90bc864162d883f1ab457d1838049d3c754c9",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb15_local_error_learning/main_runs/normal_24008.json",
+      "source_blob": "50b86bacd492f2f7bfaa6d1690d5ed098986d391",
+      "release_sha256": "989bc055642de03c77df3fbb180f4a1d3982dc90ec71dab6ae0ad80f6a347669",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb19_learning_readiness_guard/main/source_freeze.json",
+      "source_blob": "9d312dd2d9a20d53761271a397c9496cc75f1eeb",
+      "release_sha256": "7d1c62c258e5f3785d090d49297c99f8732391cc009082647e06589a897a4914",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb20_bounded_error_amplification/main_20261105/analysis.json",
+      "source_blob": "40c1977f17ecbcdd09183cdfc90c6c0d33d28a23",
+      "release_sha256": "462b955f2c887ac7c4c1cba4b8880388db5ffee3b2bc0906ffb5402f3603ef0d",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb20_bounded_error_amplification/main_20261105/manifest.json",
+      "source_blob": "9051d5c6752cbd5f8c3ee932c5e1f773cc5773b5",
+      "release_sha256": "a3d2e5eb0a7b75f1a85ee0437699ef61fe4f414c217a562f1668d8351eab2b43",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/REPORT.md",
+      "source_blob": "3a25402102d82067d795429dbe52858966e088b7",
+      "release_sha256": "413e21a930e59fa035c4073034a67ae7df0fd3e9c479637a0e0c820c34589d15",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/audit_independent.json",
+      "source_blob": "96d4cfcd9fd0946d63336d1bc7459924bc2a14cf",
+      "release_sha256": "623fbc95d189bb010d96c13e4a098b6996ee69d820ff93520c15575dad2897ba",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/inputs.npz",
+      "source_blob": "7405e255cac3402ed4b7432a016737f20e57b189",
+      "release_sha256": "a39506095d178b998b0b7f6e2f24147ab8948d765bfee1e43a49a08eb53c81d7",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/old_queries.json",
+      "source_blob": "ed2cc4edf51830c8a0f11e6cdf474c3e7e64d394",
+      "release_sha256": "0a7d658a60261fbeffd6eb85ec7fcb1f785fb67871ba1e4fa784717942a1ca0b",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/old_states.npz",
+      "source_blob": "a5a4dcbb90279a5418aa7dbad02f24f710ba8f13",
+      "release_sha256": "f6af00ca489740a2e6371aa0cafb876c1f502cd045c0fb30eb5f8fb652505c29",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/records.json",
+      "source_blob": "bed904159e4d5d2ba01304531bd6e138117cdcc2",
+      "release_sha256": "befdc8b5b3b1592dd971dcf75e11839e4140274f565fa6e3ad92eef34b744580",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/source_freeze.json",
+      "source_blob": "192a4f75c0e24d20e44990bde4a78aaf151fad8d",
+      "release_sha256": "3d40f2eda76db90b086331015b0d5425a95472fe2ba32a1f0f63cf5fd8e0792e",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/source_snapshot/experiments/otb15_local_error_learning/MAIN_CONFIG.json",
+      "source_blob": "f3d023d9a15c7951b2a785bd3156f44b4bd4d012",
+      "release_sha256": "af5d0c27093a88152a88ee74216b8a30aa905ad517ac084aa0f190749505f432",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/source_snapshot/experiments/otb15_local_error_learning/model.py",
+      "source_blob": "45d822f80cf3d9d02d296d395d5b4d4c4bae75b1",
+      "release_sha256": "1f7f02de72b3858e6b22b845630035cd353dcf30bfa201884d587538fbde9d55",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/source_snapshot/experiments/otb17_learning_readiness/model.py",
+      "source_blob": "2d96461f3200b07f76337b67b0dd5c1d2117b2d0",
+      "release_sha256": "0f131560bbd2c5d73742ab11193254cbe46ccb215c0647d8992814e471eebb72",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/source_snapshot/experiments/otb19_learning_readiness_guard/run.py",
+      "source_blob": "2210bc437915da8a40378d0c920fc373b96ad410",
+      "release_sha256": "731bfaaf23e4b578a28e23c89a3aeedb73defc83bae4bc282ecca1722146b292",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/source_snapshot/experiments/otb21_readiness_history_validation/DESIGN.md",
+      "source_blob": "78a4229e9d5e651c221ab722082a0b2841ce9969",
+      "release_sha256": "012ba9b680f8f92215fa10071e5b90b2e7c90ae9bc001d3aaffde9de36151079",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/source_snapshot/experiments/otb21_readiness_history_validation/run.py",
+      "source_blob": "041ae182d37cdfe970c088e2d075095f9576c906",
+      "release_sha256": "01fa8dab371f4172d1abdd460e56401c4295f59b2edb602d1401ac9a7caa7358",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/source_snapshot/results/otb15_local_error_learning/main_runs/normal_24001.json",
+      "source_blob": "b980bad23817e5fb1f298f9b92f6a07e27bb1314",
+      "release_sha256": "bcf37aabea50c85d51da57ddd8ddf358c912df329199beffc801fe8abef5f1e9",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/source_snapshot/results/otb15_local_error_learning/main_runs/normal_24002.json",
+      "source_blob": "4cfc323bcbf1ff737414bb20775d100882095895",
+      "release_sha256": "f65ab1d04f6f437efae31bcfe304fe21fc706c843948115b81816a66129b2b60",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/source_snapshot/results/otb15_local_error_learning/main_runs/normal_24003.json",
+      "source_blob": "276e83be7f090115ac199798c98575114e5796f0",
+      "release_sha256": "4391a8ee22f033437eef85d3c82ca3e64318f169825af14823793cad1f18bcf5",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/source_snapshot/results/otb15_local_error_learning/main_runs/normal_24004.json",
+      "source_blob": "35502e985ece2c23da1a04bcfa50be40792cfb78",
+      "release_sha256": "db1674b5d2ad605ff0033cbcede30573462ad403e59a4f2ae65b60ad5795193b",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/source_snapshot/results/otb15_local_error_learning/main_runs/normal_24005.json",
+      "source_blob": "9dc39a3cffdfb7ff2a7243a6a840e377206e1520",
+      "release_sha256": "1e1e2cf0f63992c9c73666254645c9748af0504fb6eac2d6095b8e9f9195c9cc",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/source_snapshot/results/otb15_local_error_learning/main_runs/normal_24006.json",
+      "source_blob": "88daa6529e31a711714e2ecb953de32f32e088d6",
+      "release_sha256": "5a44a7814e8dd492ca3833340165b32249bed260927ea0bc2a1cab95e500c69d",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/source_snapshot/results/otb15_local_error_learning/main_runs/normal_24007.json",
+      "source_blob": "a821489cc9f25513f461222f6fd2104600d66767",
+      "release_sha256": "0cdefe08f27badeef91e5dba23f90bc864162d883f1ab457d1838049d3c754c9",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/source_snapshot/results/otb15_local_error_learning/main_runs/normal_24008.json",
+      "source_blob": "50b86bacd492f2f7bfaa6d1690d5ed098986d391",
+      "release_sha256": "989bc055642de03c77df3fbb180f4a1d3982dc90ec71dab6ae0ad80f6a347669",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/source_snapshot/results/otb19_learning_readiness_guard/main/source_freeze.json",
+      "source_blob": "9d312dd2d9a20d53761271a397c9496cc75f1eeb",
+      "release_sha256": "7d1c62c258e5f3785d090d49297c99f8732391cc009082647e06589a897a4914",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/source_snapshot/results/otb20_bounded_error_amplification/main_20261105/analysis.json",
+      "source_blob": "40c1977f17ecbcdd09183cdfc90c6c0d33d28a23",
+      "release_sha256": "462b955f2c887ac7c4c1cba4b8880388db5ffee3b2bc0906ffb5402f3603ef0d",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/source_snapshot/results/otb20_bounded_error_amplification/main_20261105/manifest.json",
+      "source_blob": "9051d5c6752cbd5f8c3ee932c5e1f773cc5773b5",
+      "release_sha256": "a3d2e5eb0a7b75f1a85ee0437699ef61fe4f414c217a562f1668d8351eab2b43",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/source_snapshot/results/otb21_readiness_history_validation/history_20261105/inputs.npz",
+      "source_blob": "7405e255cac3402ed4b7432a016737f20e57b189",
+      "release_sha256": "a39506095d178b998b0b7f6e2f24147ab8948d765bfee1e43a49a08eb53c81d7",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/states.npz",
+      "source_blob": "4bb79e3089bd2683cec903b36aadfc4d6559cd77",
+      "release_sha256": "e17f1475d09d13f8700e791f939b569143bd9b9d451c20e9b6df42c03567a057",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/summary.json",
+      "source_blob": "6957885a804221e8a3ed8004faea470c8dde407c",
+      "release_sha256": "4cbb9876bfe6390fdf83e1aec6965f749cd1523a518be0dc80646bc2ef694f4c",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/traces/row11.npz",
+      "source_blob": "9ce23a12b2b550f070e4f61761b8469fbf42e4c5",
+      "release_sha256": "24d0481903ca416df1d88003e68f21bde444e89cd0c58af50499d637c97e2046",
+      "identical_to_source": true
+    },
+    {
+      "path": "results/otb21_readiness_history_validation/history_20261105/traces/row9.npz",
+      "source_blob": "0d30c931ca43463a601c13b225388008d6ea68d3",
+      "release_sha256": "5df54e89625be5b2db5845b0bd186846640d4981a51ec2c33a3befeef6e8bcd2",
+      "identical_to_source": true
+    }
+  ]
+}

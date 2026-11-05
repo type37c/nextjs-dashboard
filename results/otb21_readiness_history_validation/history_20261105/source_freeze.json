@@ -1,0 +1,77 @@
+{
+  "kind": "fixed_policy_new_phase_and_deadline_boundary_evaluation",
+  "frozen_utc": "2026-11-04T17:07:29Z",
+  "hashes": {
+    "experiments/otb21_readiness_history_validation/DESIGN.md": "012ba9b680f8f92215fa10071e5b90b2e7c90ae9bc001d3aaffde9de36151079",
+    "experiments/otb21_readiness_history_validation/run.py": "01fa8dab371f4172d1abdd460e56401c4295f59b2edb602d1401ac9a7caa7358",
+    "results/otb21_readiness_history_validation/history_20261105/inputs.npz": "a39506095d178b998b0b7f6e2f24147ab8948d765bfee1e43a49a08eb53c81d7",
+    "experiments/otb19_learning_readiness_guard/run.py": "731bfaaf23e4b578a28e23c89a3aeedb73defc83bae4bc282ecca1722146b292",
+    "experiments/otb15_local_error_learning/model.py": "1f7f02de72b3858e6b22b845630035cd353dcf30bfa201884d587538fbde9d55",
+    "experiments/otb15_local_error_learning/MAIN_CONFIG.json": "af5d0c27093a88152a88ee74216b8a30aa905ad517ac084aa0f190749505f432",
+    "experiments/otb17_learning_readiness/model.py": "0f131560bbd2c5d73742ab11193254cbe46ccb215c0647d8992814e471eebb72",
+    "results/otb19_learning_readiness_guard/main/source_freeze.json": "7d1c62c258e5f3785d090d49297c99f8732391cc009082647e06589a897a4914",
+    "results/otb20_bounded_error_amplification/main_20261105/manifest.json": "a3d2e5eb0a7b75f1a85ee0437699ef61fe4f414c217a562f1668d8351eab2b43",
+    "results/otb20_bounded_error_amplification/main_20261105/analysis.json": "462b955f2c887ac7c4c1cba4b8880388db5ffee3b2bc0906ffb5402f3603ef0d",
+    "results/otb15_local_error_learning/main_runs/normal_24001.json": "bcf37aabea50c85d51da57ddd8ddf358c912df329199beffc801fe8abef5f1e9",
+    "results/otb15_local_error_learning/main_runs/normal_24002.json": "f65ab1d04f6f437efae31bcfe304fe21fc706c843948115b81816a66129b2b60",
+    "results/otb15_local_error_learning/main_runs/normal_24003.json": "4391a8ee22f033437eef85d3c82ca3e64318f169825af14823793cad1f18bcf5",
+    "results/otb15_local_error_learning/main_runs/normal_24004.json": "db1674b5d2ad605ff0033cbcede30573462ad403e59a4f2ae65b60ad5795193b",
+    "results/otb15_local_error_learning/main_runs/normal_24005.json": "1e1e2cf0f63992c9c73666254645c9748af0504fb6eac2d6095b8e9f9195c9cc",
+    "results/otb15_local_error_learning/main_runs/normal_24006.json": "5a44a7814e8dd492ca3833340165b32249bed260927ea0bc2a1cab95e500c69d",
+    "results/otb15_local_error_learning/main_runs/normal_24007.json": "0cdefe08f27badeef91e5dba23f90bc864162d883f1ab457d1838049d3c754c9",
+    "results/otb15_local_error_learning/main_runs/normal_24008.json": "989bc055642de03c77df3fbb180f4a1d3982dc90ec71dab6ae0ad80f6a347669"
+  },
+  "seeds": [
+    24001,
+    24002,
+    24003,
+    24004,
+    24005,
+    24006,
+    24007,
+    24008
+  ],
+  "phase_rng": 27501,
+  "phase_draws": 4,
+  "old_pairs": [
+    2,
+    3
+  ],
+  "current_pairs": [
+    0,
+    1
+  ],
+  "budgets": [
+    1536,
+    2048,
+    4096
+  ],
+  "policies": [
+    "usual",
+    "fixed4096",
+    "guard"
+  ],
+  "fixed_wait": 4096,
+  "theta": 0.04510919508112717,
+  "hcrit": 0.3849001794597505,
+  "config": {
+    "alpha": 6.0,
+    "tau_e": 6000.0,
+    "tau_s": 1000.0,
+    "query_steps": 4096,
+    "cue_step": 1024,
+    "write_steps": 8000,
+    "delay_steps": 1000,
+    "hold_eta": 0.1,
+    "noise": 0.0,
+    "gain": 0.3,
+    "competition": 1.0,
+    "epochs": 2,
+    "reverse_epochs": 2,
+    "retention_steps": 80000
+  },
+  "expected_trials": 1152,
+  "world_change": "operation0_reversed_operation1_unchanged",
+  "total_time_includes_old_query_wait_current_query_delay_write": true,
+  "not_claimed": "new semantic task family, new independent circuits, or general scaling"
+}
