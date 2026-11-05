@@ -8,7 +8,7 @@ Oscillator Mind is a research program by Keisuke Ohtani that starts with individ
 
 The work proceeds from **single-unit properties to connected systems**. Learning readiness is one finding along that path. This public repository introduces the broader program and provides **OTB21 as the first fully bundled reproducible study**.
 
-Read the illustrated research journal at **[basin-mv.com](https://basin-mv.com/)** ([English](https://basin-mv.com/en/)), including the [OTB21 study article](https://basin-mv.com/en/journal/learning-readiness/). [Repository history](docs/PUBLISH.md).
+Read the **[living research textbook](https://basin-mv.com/)**: [15 interactive foundational lessons](https://basin-mv.com/learn/), [source-backed research records](https://basin-mv.com/research/), and the [OTB21 study article](https://basin-mv.com/journal/learning-readiness/). English is primary, with a [Japanese edition](https://basin-mv.com/ja/). Teaching models are explicitly distinguished from reproducible experiments. [Repository history](docs/PUBLISH.md).
 
 ## The starting point: memory changes motion
 
