@@ -1,34 +1,67 @@
-# Learning Readiness
+# Oscillator Mind
 
-Research code and data, hosted at [`type37c/nextjs-dashboard`](https://github.com/type37c/nextjs-dashboard). The repository URL retains the name of an archived tutorial; the current project is Learning Readiness.
+### Memory-Dependent Oscillator Networks
 
-**When should a memory system accept its next learning signal?**
+**How does memory shape dynamics, computation, and learning in networks of oscillators?**
 
-A small, reproducible numerical study of interference in an oscillator-coupled memory system. Residual activity from an earlier query can route a later teaching signal into an unrelated memory. Waiting for a state-based retention condition before the next query preserves old relations while allowing the new relation to be learned.
+Oscillator Mind is a research program by Keisuke Ohtani that starts with individual oscillators whose internal memory changes their motion, then asks what happens when these units are connected. Can experience retained in a dynamical state change firing, influence another unit, support repeated computation, and be updated by later experience?
 
-This repository packages the OTB21 experiment from Keisuke Ohtani's oscillator research. It is an exploratory mechanism study with deliberately simple binary tasks, designed to make its assumptions, failures, and computational costs inspectable.
+The work proceeds from **single-unit properties to connected systems**. Learning readiness is one finding along that path. This public repository introduces the broader program and provides **OTB21 as the first fully bundled reproducible study**.
 
-![Retention and time cost](figures/retention-cost.png)
+The GitHub URL still uses the archived tutorial name `nextjs-dashboard`. The project presented here is Oscillator Mind; the old About description and Vercel homepage are unrelated to the research. [Repository history](docs/PUBLISH.md).
 
-## Main result
+## The starting point: memory changes motion
 
-Each cell below contains 128 paired conditions (eight saved memories × four initial phases × two previous contexts × two current contexts). These are **not 128 independent tasks or worlds**.
+In the T7 implementation used here, a unit has a history-dependent state `m`, a phase `phi`, and a refractory counter. Its proposed phase increment is `omega + kappa*m`. Inputs and firing change `m`, which changes subsequent motion and firing. Connecting units allows those history-dependent events to drive other units.
 
-| Query duration | Immediate update: old relation retained | Fixed 4,096-step wait | State-based wait |
+```mermaid
+flowchart LR
+    I[Input and past activity] --> M[Internal state m]
+    M --> P[Phase evolution]
+    P --> F[Firing]
+    F --> M
+    F --> N[Input to another oscillator]
+    N --> C[Network response]
+```
+
+This loop makes retained history part of the system's dynamics. It also creates difficulties: a state useful for retaining history may be unsuitable for the next computation. Later OTB experiments add a bistable companion memory and explicit learning states; they do not all use a bare T7 unit alone. [Single-unit model and component roles](docs/INDIVIDUAL_DYNAMICS.md).
+
+## Four connected research questions
+
+| Direction | Question | Current evidence and boundary |
+|---|---|---|
+| **Individual dynamics** | How do memory, phase, firing and input response interact? | The coupled state updates are available in the bundled model. This release explains that implementation; it does not reproduce the full historical single-unit analysis. |
+| **Network computation** | How can one unit's history-dependent response become usable input to another? | Earlier E/OM studies investigated connected memory, processing and readout units. E7-D reports preparation selection through a firing circuit; its report is included, its full reproduction package is not yet included. |
+| **Continual computation & learning** | Can the system keep computing and update experience without corrupting other memories? | E7-D addresses repeated computation. OTB15 explores error-driven memory updates. **OTB21 is runnable here:** a state-based waiting condition protects old relations during learning, at additional time cost. |
+| **Experience sharing** | Can connected systems jointly use experiences stored by different owners? | OTB22 reports a minimal three-module simulation. Shared firing enables joint use while connected; recipient learning, contradiction handling and real distributed operation remain open. |
+
+Read the [research map and evidence levels](docs/RESEARCH_MAP.md). The four directions organize the program; they are not four completed capabilities of a single integrated AI.
+
+## Reproducible studies
+
+### OTB21 — Learning readiness and memory interference
+
+A previous query leaves an eligibility trace. A later teaching error can then affect an unrelated memory. In this small binary task, waiting for a retention condition **before the next query** permits the changed relation to be learned while preserving the unchanged relation.
+
+![OTB21 retention and time cost](figures/retention-cost.png)
+
+| Query duration (steps) | Immediate update: old relation retained | Fixed 4,096-step wait | State-based wait |
 |---:|---:|---:|---:|
 | 1,536 | 64/128 | 64/128 | 128/128 |
 | 2,048 | 64/128 | 64/128 | 128/128 |
 | 4,096 | 64/128 | 128/128 | 128/128 |
 
-The new relation was learned in **128/128 conditions for every policy and duration**. For the shortest query, average total time was 14,632 / 18,728 / 30,040.25 simulation steps, respectively. The state-based policy buys retention with additional time. An optimized longer fixed wait has not been ruled out.
+The new relation was learned in **128/128 conditions in every group**. Each group reuses eight learned memories, four phase draws and four context transitions; it is not 128 independent worlds. For the shortest query, mean total time is **14,632 / 18,728 / 30,040.25 steps**. A better tuned, longer fixed wait could explain the advantage; matched-time superiority has not been established.
 
-## Run it
+[Study overview](docs/studies/OTB21.md) · [Method](docs/METHOD.md) · [Original report](results/otb21_readiness_history_validation/REPORT.md)
 
-Python 3.12; CPU only. No API key, GPU, private repository access, or model download is required.
+### Run the public study
+
+Python 3.12, CPU only. No API key, GPU or private repository access is needed.
 
 ```bash
-git clone https://github.com/type37c/nextjs-dashboard.git learning-readiness
-cd learning-readiness
+git clone https://github.com/type37c/nextjs-dashboard.git oscillator-mind
+cd oscillator-mind
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -36,47 +69,27 @@ python scripts/plot_results.py
 python experiments/otb21_readiness_history_validation/independent_audit.py
 ```
 
-The plot is recalculated from the saved trial records. The audit checks all 1,152 trial scores, the input RNG, saved eligibility/error-state boundaries, source hashes, guard conditions, and two retained radial traces. It does **not** independently rerun every T7 trajectory.
-
-For a fresh simulation, use a new output directory name:
+Fresh acquisition from the bundled learned memory states:
 
 ```bash
 python experiments/otb21_readiness_history_validation/run.py --name reproduction_01
 ```
 
-The first run includes Numba compilation. Existing output directories are refused. Fresh acquisition starts from the eight included learned memory states; it does not repeat their earlier OTB15 training. The original audit targets the preserved run, not arbitrary new output directories. See [reproduction](docs/REPRODUCTION.md).
+A new name is required on each run. The first run compiles Numba kernels. The saved-data audit targets the preserved acquisition; it is not an audit of arbitrary new output directories. [Reproduction details](docs/REPRODUCTION.md).
 
-## Mechanism
+**Verification status:** the 1,152-condition acquisition was rerun locally and its record dictionaries matched the preserved results exactly; numerical state differences are recorded in [release validation](docs/RELEASE_VALIDATION.json). The saved-data audit passes locally. The initial GitHub Actions run failed before any test step started, so hosted CI has **not** passed. [CI status and diagnosis](docs/CI_STATUS.md).
 
-1. A query produces T7 firing and leaves a decaying eligibility trace `e` on the used memory route.
-2. A later teaching error enters an error accumulator `s`, weighted by that trace.
-3. The accumulator tilts a bistable amplitude memory, changing later T7 responses.
-4. Residual traces from previous queries can therefore modify unrelated memories.
-5. Before the next query, the guard waits until non-target traces satisfy a sufficient retention bound. The new query then establishes its own fresh trace.
+## Scope and open questions
 
-The T7 dynamics, bistable memory, and learning rule are fixed across the three policies. Preparation timing changes. [Model and assumptions](docs/METHOD.md).
+The present evidence comes from limited numerical systems with designed tasks and connections. Parts of preparation, routing, teaching-error computation and readout remain external. Different studies use different components, including conventional readouts or LIF relays where specified. General intelligence, automatic concept discovery, oscillator-specific superiority and hardware efficiency are not established.
 
-## What this establishes—and what remains open
+The next questions are concrete: which state information is necessary for computation; when firing preserves enough of it; how to update a target memory without affecting others; and how joint use of experience can handle conflicting evidence. See [collaboration topics](CONTRIBUTING.md).
 
-- In this constructed task, a state-based waiting condition preserves existing relations across the tested phase/duration changes while learning a changed relation.
-- The mechanism includes externally computed teaching errors, routing, and preparation control. It is not a fully oscillator-implemented autonomous learner.
-- Feature relevance and context routing are supplied. No semantic concepts or unknown causal structures are discovered.
-- This release does not establish oscillator superiority, hardware efficiency, large-scale continual learning, or a general solution to forgetting.
-- The study used pilot-informed choices and locally frozen hashes. It was not externally preregistered or independently certified.
+## Reading and reuse
 
-## Collaborate
+- [日本語の研究概要](docs/README.ja.md)
+- [Research map](docs/RESEARCH_MAP.md) and [single-unit explanation](docs/INDIVIDUAL_DYNAMICS.md)
+- [Evidence index](docs/evidence/README.md): distinguishes included reports from runnable studies
+- [Provenance and AI assistance](docs/PROVENANCE.md)
 
-Useful next experiments are concrete: compare against an equally slow optimized fixed wait; find a tighter finite-time retention condition; test longer mixed-context streams; compare against a matched non-oscillatory memory. See [contribution guide](CONTRIBUTING.md) for proposed experiments and reporting requirements.
-
-## Evidence and provenance
-
-- [English method](docs/METHOD.md) and [Japanese overview](docs/README.ja.md)
-- [Original Japanese report](results/otb21_readiness_history_validation/REPORT.md) and [frozen design](experiments/otb21_readiness_history_validation/DESIGN.md)
-- Original records, boundary states, two traces, and source snapshots are included under `results/`.
-- [Source provenance and AI assistance](docs/PROVENANCE.md). Original internal study labels are retained so source hashes remain auditable.
-
-This is an independent research project. No institutional endorsement is implied.
-
-## Rights
-
-No open-source license has yet been selected by the author. Public visibility alone does not grant a general redistribution or modification license. License selection remains a release decision; do not assume MIT or Apache terms.
+This is an independent research project; no institutional endorsement is implied. No open-source license has yet been selected by the author. Public visibility alone does not grant a general redistribution or modification license.

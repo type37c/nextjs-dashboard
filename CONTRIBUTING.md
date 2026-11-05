@@ -1,14 +1,20 @@
-# Contributing
+# Collaborating on Oscillator Mind
 
-Reproductions, counterexamples, matched baselines, and narrower claims are welcome.
+Reproductions, counterexamples, comparative models and clearer explanations are welcome. Start with the [research map](docs/RESEARCH_MAP.md); OTB21 is the currently runnable study.
 
-Useful first contributions:
+## Questions by research direction
 
-- **Equal-time fixed baseline:** choose fixed waits on separate calibration streams, then compare against the guard on held-out histories at matched total time. A longer wait may explain the entire benefit.
-- **Finite-time bound:** reduce unnecessary waiting while checking target learning and non-target retention separately.
-- **Stream stress test:** vary context order, inter-query time, label delay and noise. Preserve failures and report every declared condition.
-- **Matched non-oscillatory baseline:** retain equivalent memory and teaching information; report state count, update work and accuracy rather than inferring hardware power from Python runtime.
+- **Individual dynamics:** characterize how m-to-phase coupling and the refractory rule change observability and response. Compare matched history-dependent alternatives before attributing an effect specifically to T7.
+- **Network computation:** identify where distinctions are lost between retained state, firing and receiver response. Keep information preservation separate from downstream task success.
+- **Continual computation and learning:** compare OTB21 against an equally slow optimized fixed wait; tighten finite-time retention bounds; test longer mixed-context streams. Measure target learning and non-target retention separately.
+- **Experience sharing:** package a reproducible minimal sharing example, test conflicting testimony and communication delays, and distinguish joint use from recipient learning. The included OTB22 report is a starting point, not a complete public code package.
 
-Before collecting evaluation data, record the question, frozen settings, split unit, baseline, success rule and compute budget. Do not count repeated phases as independent worlds. New experiments belong in new directories; do not overwrite preserved source snapshots or results. State which code and reasoning were produced with AI assistance and how they were checked.
+## A useful first experiment
 
-For a bug report, include Python/dependency versions, the exact command, expected versus actual behavior and a minimal reproduction. Do not include credentials or private datasets.
+Calibrate fixed waits on separate streams and compare them against the OTB21 guard on held-out histories at matched total time. A longer fixed wait may explain the entire benefit. Preserve that result if it occurs.
+
+Before collecting evaluation data, record the question, settings, split unit, baseline, success rule and compute budget. Do not count repeated phases as independent worlds. Put new experiments in new directories and retain original source snapshots. State which code and reasoning used AI assistance and how they were checked.
+
+For bug reports, include dependency versions, exact command, expected versus actual behavior and a minimal reproduction. Hosted CI currently cannot start because of an account-level restriction; [local validation and CI status](docs/CI_STATUS.md) are documented separately.
+
+The reuse license remains pending author selection. Discuss proposed reuse with the author until a license is added; no permissive grant is implied by this contribution guide.

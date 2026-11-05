@@ -13,3 +13,7 @@ AI assistance: this publication package was prepared with Codex, including sourc
 No ML Collective affiliation or endorsement is asserted by this package. The project is prepared for open research discussion.
 
 Publication reuses the public `type37c/nextjs-dashboard` repository. The previous tutorial is preserved in the archive branch documented in [publication notes](PUBLISH.md).
+
+## Research overview expansion (2026-11-05)
+
+The public title is now Oscillator Mind — Memory-Dependent Oscillator Networks. OTB21 remains the first fully bundled study. The overview adds the individual-dynamics rationale and a four-direction research map. Three original reports are copied under `docs/evidence/`; their source refs are recorded there. These reports extend the readable evidence without asserting that their full reproduction packages are included. The scientific acquisition code and frozen data are unchanged.
