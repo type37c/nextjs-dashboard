@@ -1,0 +1,257 @@
+{
+  "primary": {
+    "mean": 0.0408203125,
+    "ci95": [
+      0.0298828125,
+      0.0515625
+    ],
+    "per_device": [
+      0.078125,
+      0.0341796875,
+      0.068359375,
+      -0.01953125,
+      0.04296875
+    ],
+    "scope": "conditional on five fixed circuits and frozen models; paired group percentile bootstrap",
+    "classification": "positive_difference_minimum_effect_unestablished"
+  },
+  "secondary": {
+    "fixed": {
+      "mean": -0.12734375,
+      "ci95": [
+        -0.1375,
+        -0.1171875
+      ],
+      "per_device": [
+        -0.060546875,
+        -0.1240234375,
+        -0.17578125,
+        -0.0966796875,
+        -0.1796875
+      ],
+      "scope": "conditional on five fixed circuits and frozen models; paired group percentile bootstrap"
+    },
+    "interaction": {
+      "mean": 0.1681640625,
+      "ci95": [
+        0.15546875,
+        0.18125
+      ],
+      "per_device": [
+        0.138671875,
+        0.158203125,
+        0.244140625,
+        0.0771484375,
+        0.22265625
+      ],
+      "scope": "conditional on five fixed circuits and frozen models; paired group percentile bootstrap"
+    },
+    "A0": {
+      "mean": -0.023046875,
+      "ci95": [
+        -0.03359375,
+        -0.0125
+      ],
+      "per_device": [
+        -0.06640625,
+        0.0,
+        0.0,
+        -0.046875,
+        -0.001953125
+      ],
+      "scope": "conditional on five fixed circuits and frozen models; paired group percentile bootstrap"
+    },
+    "A1": {
+      "mean": 0.1046875,
+      "ci95": [
+        0.08515625,
+        0.12421875
+      ],
+      "per_device": [
+        0.22265625,
+        0.068359375,
+        0.13671875,
+        0.0078125,
+        0.087890625
+      ],
+      "scope": "conditional on five fixed circuits and frozen models; paired group percentile bootstrap"
+    },
+    "A_interaction": {
+      "mean": 0.127734375,
+      "ci95": [
+        0.10546875,
+        0.15
+      ],
+      "per_device": [
+        0.2890625,
+        0.068359375,
+        0.13671875,
+        0.0546875,
+        0.08984375
+      ],
+      "scope": "conditional on five fixed circuits and frozen models; paired group percentile bootstrap"
+    },
+    "next1": {
+      "mean": 0.02421875,
+      "ci95": [
+        0.0119140625,
+        0.036328125
+      ],
+      "per_device": [
+        -0.0078125,
+        0.00390625,
+        0.09765625,
+        -0.0380859375,
+        0.0654296875
+      ],
+      "scope": "conditional on five fixed circuits and frozen models; paired group percentile bootstrap"
+    },
+    "by_hold": {
+      "512": {
+        "mean": 0.026953125,
+        "ci95": [
+          0.01015625,
+          0.04375
+        ],
+        "per_device": [
+          0.068359375,
+          0.05078125,
+          0.046875,
+          -0.044921875,
+          0.013671875
+        ],
+        "scope": "conditional on five fixed circuits and frozen models; paired group percentile bootstrap"
+      },
+      "16384": {
+        "mean": 0.0546875,
+        "ci95": [
+          0.0421875,
+          0.0671875
+        ],
+        "per_device": [
+          0.087890625,
+          0.017578125,
+          0.08984375,
+          0.005859375,
+          0.072265625
+        ],
+        "scope": "conditional on five fixed circuits and frozen models; paired group percentile bootstrap"
+      }
+    }
+  },
+  "summary": {
+    "B0": {
+      "refit": {
+        "chains": 5120,
+        "all7": 0.5689453125,
+        "all7_A0": 0.926171875,
+        "all7_A1": 0.21171875,
+        "next1": 0.8904296875,
+        "per_stage": [
+          0.8904296875,
+          0.8748046875,
+          0.8896484375,
+          0.8908203125,
+          0.89609375,
+          0.897265625,
+          0.89453125
+        ],
+        "joint_candidate_exists": 0.7950892857142857,
+        "actual_candidate_exists": 0.9628069196428571,
+        "joint_selection_failure_given_exists": 0.03712801796743403,
+        "joint_selection_failure_all": 0.029520089285714285,
+        "actual_failures": 3924,
+        "actual_failures_no_candidate": 1333,
+        "actual_failures_selection": 2591,
+        "actual_ready_but_failed": 0,
+        "p_spikes_mean": 0.3282470703125,
+        "copy_error_max": 0.6000000000000403,
+        "shadow_error_max": 0.0
+      },
+      "fixed": {
+        "chains": 5120,
+        "all7": 0.341796875,
+        "all7_A0": 0.616796875,
+        "all7_A1": 0.066796875,
+        "next1": 0.7494140625,
+        "per_stage": [
+          0.7494140625,
+          0.790625,
+          0.8025390625,
+          0.82109375,
+          0.8345703125,
+          0.826171875,
+          0.83125
+        ],
+        "joint_candidate_exists": 0.8133649553571428,
+        "actual_candidate_exists": 0.9665178571428571,
+        "joint_selection_failure_given_exists": 0.25669788343453054,
+        "joint_selection_failure_all": 0.2087890625,
+        "actual_failures": 6883,
+        "actual_failures_no_candidate": 1200,
+        "actual_failures_selection": 5683,
+        "actual_ready_but_failed": 0,
+        "p_spikes_mean": 0.432568359375,
+        "copy_error_max": 0.6000000000000403,
+        "shadow_error_max": 0.0
+      }
+    },
+    "B2_once": {
+      "refit": {
+        "chains": 5120,
+        "all7": 0.528125,
+        "all7_A0": 0.94921875,
+        "all7_A1": 0.10703125,
+        "next1": 0.8662109375,
+        "per_stage": [
+          0.8662109375,
+          0.880078125,
+          0.86484375,
+          0.8595703125,
+          0.85625,
+          0.855859375,
+          0.851171875
+        ],
+        "joint_candidate_exists": 0.7960658482142857,
+        "actual_candidate_exists": 0.9620814732142857,
+        "joint_selection_failure_given_exists": 0.10514878553152711,
+        "joint_selection_failure_all": 0.08370535714285714,
+        "actual_failures": 4946,
+        "actual_failures_no_candidate": 1359,
+        "actual_failures_selection": 3587,
+        "actual_ready_but_failed": 0,
+        "p_spikes_mean": 0.35595703125,
+        "copy_error_max": 0.6000000000000552,
+        "shadow_error_max": 0.0
+      },
+      "fixed": {
+        "chains": 5120,
+        "all7": 0.469140625,
+        "all7_A0": 0.841796875,
+        "all7_A1": 0.096484375,
+        "next1": 0.86015625,
+        "per_stage": [
+          0.86015625,
+          0.87265625,
+          0.83671875,
+          0.840625,
+          0.8427734375,
+          0.8392578125,
+          0.833203125
+        ],
+        "joint_candidate_exists": 0.7982421875,
+        "actual_candidate_exists": 0.9651785714285714,
+        "joint_selection_failure_given_exists": 0.15012758222936837,
+        "joint_selection_failure_all": 0.11983816964285714,
+        "actual_failures": 5502,
+        "actual_failures_no_candidate": 1248,
+        "actual_failures_selection": 4254,
+        "actual_ready_but_failed": 0,
+        "p_spikes_mean": 0.353955078125,
+        "copy_error_max": 0.6000000000001483,
+        "shadow_error_max": 0.0
+      }
+    }
+  },
+  "secondary_inference": "prespecified descriptive comparisons, not confirmatory success criteria"
+}

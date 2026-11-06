@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "files": 320,
+  "checks": [
+    "source and calibration hashes",
+    "input generation sidecars",
+    "donor pairing and A/B matching",
+    "independent event-count scoring",
+    "actual counterfactual predictions",
+    "finite states",
+    "common preintervention states",
+    "component equations",
+    "constant persistence",
+    "fixed slot1",
+    "observational shadow"
+  ]
+}

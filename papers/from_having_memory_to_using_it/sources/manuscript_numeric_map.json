@@ -1,0 +1,121 @@
+{
+  "source": "WH_analysis.json",
+  "evidence_commit": "bed5dc0462483997fa517fe0c91e997e81635b9a",
+  "note": "Unit conversion and source mapping only; no new statistical test. Ordinary intervals are not Holm decision intervals.",
+  "claims": {
+    "P1_B0_minus_B2": {
+      "json_path": "comparisons.P1_B0_minus_B2",
+      "mean_percentage_points": 4.072265625,
+      "ordinary_ci95_percentage_points": [
+        2.433255913769993,
+        5.711275336230007
+      ]
+    },
+    "P2_Bswap_minus_B2": {
+      "json_path": "comparisons.P2_Bswap_minus_B2",
+      "mean_percentage_points": 1.484375,
+      "ordinary_ci95_percentage_points": [
+        -0.2170695127393995,
+        3.185819512739399
+      ]
+    },
+    "P2_B0_minus_Bswap": {
+      "json_path": "comparisons.P2_B0_minus_Bswap",
+      "mean_percentage_points": 2.587890625,
+      "ordinary_ci95_percentage_points": [
+        1.413205067027537,
+        3.762576182972463
+      ]
+    },
+    "policy_interaction": {
+      "json_path": "secondary.policy_interaction",
+      "classification": "prespecified descriptive secondary",
+      "mean_percentage_points": 13.173828125,
+      "ordinary_ci95_percentage_points": [
+        9.877430401329809,
+        16.470225848670193
+      ]
+    },
+    "swap_minus_const": {
+      "json_path": "secondary.swap_minus_const",
+      "classification": "prespecified descriptive secondary",
+      "mean_percentage_points": 4.501953125,
+      "ordinary_ci95_percentage_points": [
+        2.5366358776589495,
+        6.467270372341051
+      ]
+    },
+    "B0_minus_B2_A0": {
+      "json_path": "secondary.B0_minus_B2.A0",
+      "classification": "prespecified descriptive secondary",
+      "mean_percentage_points": -0.42968750000000006,
+      "ordinary_ci95_percentage_points": [
+        -2.6592167086836387,
+        1.799841708683638
+      ]
+    },
+    "B0_minus_B2_A1": {
+      "json_path": "secondary.B0_minus_B2.A1",
+      "classification": "prespecified descriptive secondary",
+      "mean_percentage_points": 8.57421875,
+      "ordinary_ci95_percentage_points": [
+        5.825555650626184,
+        11.322881849373816
+      ]
+    },
+    "B0_minus_B2_hold512": {
+      "json_path": "secondary.B0_minus_B2.hold512",
+      "classification": "prespecified descriptive secondary",
+      "mean_percentage_points": 5.4296875,
+      "ordinary_ci95_percentage_points": [
+        2.6502063495874664,
+        8.209168650412533
+      ]
+    },
+    "B0_minus_B2_hold16384": {
+      "json_path": "secondary.B0_minus_B2.hold16384",
+      "classification": "prespecified descriptive secondary",
+      "mean_percentage_points": 2.71484375,
+      "ordinary_ci95_percentage_points": [
+        1.4559392070850863,
+        3.9737482929149137
+      ]
+    },
+    "B0_minus_B2_next1": {
+      "json_path": "secondary.B0_minus_B2.next1",
+      "classification": "prespecified descriptive secondary",
+      "mean_percentage_points": -0.01953125,
+      "ordinary_ci95_percentage_points": [
+        -2.981360125997666,
+        2.942297625997666
+      ]
+    }
+  },
+  "primary_tests": {
+    "P1_B0_gt_B2": {
+      "p_raw": 5.092464480158498e-05,
+      "p_holm": 0.0002546232240079249,
+      "reject": true
+    },
+    "P2_B0_gt_Bswap": {
+      "p_raw": 0.0001906422697359475,
+      "p_holm": 0.00076256907894379,
+      "reject": true
+    },
+    "P2_equiv_swap_B2": {
+      "p_raw": 0.2667262563312415,
+      "p_holm": 0.8001787689937244,
+      "reject": false
+    },
+    "P2_equiv_swap_B0": {
+      "p_raw": 0.8459911930119145,
+      "p_holm": 1.0,
+      "reject": false
+    },
+    "P2_Bswap_lt_B2": {
+      "p_raw": 1.0,
+      "p_holm": 1.0,
+      "reject": false
+    }
+  }
+}

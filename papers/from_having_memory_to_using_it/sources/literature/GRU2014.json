@@ -1,0 +1,16 @@
+{
+  "key": "GRU2014",
+  "paper_id": "arxiv:1406.1078",
+  "title": "Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation",
+  "authors": "Kyunghyun Cho, Bart van Merrienboer, Caglar Gulcehre, Dzmitry Bahdanau, Fethi Bougares, Holger Schwenk, Yoshua Bengio",
+  "year_cited": 2014,
+  "url": "https://arxiv.org/abs/1406.1078",
+  "locator": "Section 2.3, equations 5–8",
+  "claim_used": "Reset and update gates control prior-state use and interpolation with candidate activation.",
+  "short_source_excerpt": "On the other hand, the update gate controls how much information from the\nprevious hidden state will carry over to the current hidden state. This acts\nsimilarly to the memory cell in the LSTM network and helps the RNN …",
+  "retrieval_method": "retrieved in-body passages; not a complete paper read",
+  "coverage": "relevant method passages; not exhaustive literature coverage",
+  "retrieval_date": "2026-11-06",
+  "raw_retrieval_sha256": "6affea867088b6f26f0d44b55095f39448a3019f2084801c6a170aeee0313cdc",
+  "raw_record_scope": "full retrieval remains in local scratch, not redistributed in the manuscript bundle"
+}

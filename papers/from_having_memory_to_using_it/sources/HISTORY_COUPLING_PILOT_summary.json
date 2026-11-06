@@ -1,0 +1,1167 @@
+{
+  "summary": {
+    "B0": {
+      "frozen": {
+        "chains": 640,
+        "all7": 0.5828125,
+        "all7_A0": 0.91875,
+        "all7_A1": 0.246875,
+        "next1": 0.89375,
+        "per_stage": [
+          0.89375,
+          0.884375,
+          0.9171875,
+          0.8890625,
+          0.896875,
+          0.9015625,
+          0.9046875
+        ],
+        "joint_candidate_exists": 0.7982142857142858,
+        "actual_candidate_exists": 0.9654017857142857,
+        "joint_selection_failure_given_exists": 0.03159955257270693,
+        "joint_selection_failure_all": 0.025223214285714286,
+        "actual_failures": 456,
+        "actual_failures_no_candidate": 155,
+        "actual_failures_selection": 301,
+        "actual_ready_but_failed": 0,
+        "p_spikes_mean": 0.2990234375,
+        "copy_error_max": 0.6000000000000585,
+        "shadow_error_max": 0.0
+      },
+      "refit": {
+        "chains": 640,
+        "all7": 0.596875,
+        "all7_A0": 0.946875,
+        "all7_A1": 0.246875,
+        "next1": 0.90625,
+        "per_stage": [
+          0.90625,
+          0.8734375,
+          0.8984375,
+          0.8875,
+          0.903125,
+          0.9015625,
+          0.90625
+        ],
+        "joint_candidate_exists": 0.8017857142857143,
+        "actual_candidate_exists": 0.9683035714285714,
+        "joint_selection_failure_given_exists": 0.03591314031180401,
+        "joint_selection_failure_all": 0.028794642857142855,
+        "actual_failures": 463,
+        "actual_failures_no_candidate": 142,
+        "actual_failures_selection": 321,
+        "actual_ready_but_failed": 0,
+        "p_spikes_mean": 0.3287109375,
+        "copy_error_max": 0.5998877778220404,
+        "shadow_error_max": 0.0
+      },
+      "fixed": {
+        "chains": 640,
+        "all7": 0.3609375,
+        "all7_A0": 0.659375,
+        "all7_A1": 0.0625,
+        "next1": 0.76875,
+        "per_stage": [
+          0.76875,
+          0.796875,
+          0.8453125,
+          0.834375,
+          0.8171875,
+          0.80625,
+          0.8515625
+        ],
+        "joint_candidate_exists": 0.815625,
+        "actual_candidate_exists": 0.9685267857142857,
+        "joint_selection_failure_given_exists": 0.2536945812807882,
+        "joint_selection_failure_all": 0.20691964285714284,
+        "actual_failures": 819,
+        "actual_failures_no_candidate": 141,
+        "actual_failures_selection": 678,
+        "actual_ready_but_failed": 0,
+        "p_spikes_mean": 0.4349609375,
+        "copy_error_max": 0.5998861993150129,
+        "shadow_error_max": 0.0
+      },
+      "oracle": {
+        "chains": 640,
+        "all7": 0.59375,
+        "all7_A0": 0.946875,
+        "all7_A1": 0.240625,
+        "next1": 0.921875,
+        "per_stage": [
+          0.921875,
+          0.8921875,
+          0.9,
+          0.8828125,
+          0.8984375,
+          0.9078125,
+          0.859375
+        ],
+        "joint_candidate_exists": 0.7725446428571429,
+        "actual_candidate_exists": 0.9404017857142857,
+        "joint_selection_failure_given_exists": 0.0,
+        "joint_selection_failure_all": 0.0,
+        "actual_failures": 472,
+        "actual_failures_no_candidate": 267,
+        "actual_failures_selection": 205,
+        "actual_ready_but_failed": 0,
+        "p_spikes_mean": 0.2265625,
+        "copy_error_max": 0.6000000000000585,
+        "shadow_error_max": 0.0
+      }
+    },
+    "B1": {
+      "frozen": {
+        "chains": 640,
+        "all7": 0.003125,
+        "all7_A0": 0.0,
+        "all7_A1": 0.00625,
+        "next1": 0.265625,
+        "per_stage": [
+          0.265625,
+          0.2359375,
+          0.296875,
+          0.2734375,
+          0.2515625,
+          0.2515625,
+          0.271875
+        ],
+        "joint_candidate_exists": 0.011607142857142858,
+        "actual_candidate_exists": 0.26808035714285716,
+        "joint_selection_failure_given_exists": 0.21153846153846154,
+        "joint_selection_failure_all": 0.002455357142857143,
+        "actual_failures": 3298,
+        "actual_failures_no_candidate": 3279,
+        "actual_failures_selection": 19,
+        "actual_ready_but_failed": 0,
+        "p_spikes_mean": 0.9642578125,
+        "copy_error_max": 0.5999234550544568,
+        "shadow_error_max": 0.0
+      },
+      "refit": {
+        "chains": 640,
+        "all7": 0.003125,
+        "all7_A0": 0.0,
+        "all7_A1": 0.00625,
+        "next1": 0.2796875,
+        "per_stage": [
+          0.2796875,
+          0.2453125,
+          0.2921875,
+          0.2734375,
+          0.2515625,
+          0.25,
+          0.2734375
+        ],
+        "joint_candidate_exists": 0.010714285714285714,
+        "actual_candidate_exists": 0.2671875,
+        "joint_selection_failure_given_exists": 0.0,
+        "joint_selection_failure_all": 0.0,
+        "actual_failures": 3286,
+        "actual_failures_no_candidate": 3283,
+        "actual_failures_selection": 3,
+        "actual_ready_but_failed": 0,
+        "p_spikes_mean": 0.9642578125,
+        "copy_error_max": 0.5999234550544625,
+        "shadow_error_max": 0.0
+      },
+      "fixed": {
+        "chains": 640,
+        "all7": 0.003125,
+        "all7_A0": 0.0,
+        "all7_A1": 0.00625,
+        "next1": 0.2796875,
+        "per_stage": [
+          0.2796875,
+          0.2453125,
+          0.2921875,
+          0.2734375,
+          0.2515625,
+          0.25,
+          0.2734375
+        ],
+        "joint_candidate_exists": 0.010714285714285714,
+        "actual_candidate_exists": 0.2671875,
+        "joint_selection_failure_given_exists": 0.0,
+        "joint_selection_failure_all": 0.0,
+        "actual_failures": 3286,
+        "actual_failures_no_candidate": 3283,
+        "actual_failures_selection": 3,
+        "actual_ready_but_failed": 0,
+        "p_spikes_mean": 0.9642578125,
+        "copy_error_max": 0.5999234550544625,
+        "shadow_error_max": 0.0
+      },
+      "oracle": {
+        "chains": 640,
+        "all7": 0.003125,
+        "all7_A0": 0.0,
+        "all7_A1": 0.00625,
+        "next1": 0.275,
+        "per_stage": [
+          0.275,
+          0.2453125,
+          0.3,
+          0.275,
+          0.2484375,
+          0.2515625,
+          0.26875
+        ],
+        "joint_candidate_exists": 0.011830357142857142,
+        "actual_candidate_exists": 0.26875,
+        "joint_selection_failure_given_exists": 0.0,
+        "joint_selection_failure_all": 0.0,
+        "actual_failures": 3287,
+        "actual_failures_no_candidate": 3276,
+        "actual_failures_selection": 11,
+        "actual_ready_but_failed": 0,
+        "p_spikes_mean": 0.9642578125,
+        "copy_error_max": 0.5999234550544625,
+        "shadow_error_max": 0.0
+      }
+    },
+    "B2_once": {
+      "frozen": {
+        "chains": 640,
+        "all7": 0.4875,
+        "all7_A0": 0.896875,
+        "all7_A1": 0.078125,
+        "next1": 0.8125,
+        "per_stage": [
+          0.8125,
+          0.828125,
+          0.7921875,
+          0.796875,
+          0.8359375,
+          0.846875,
+          0.78125
+        ],
+        "joint_candidate_exists": 0.7417410714285714,
+        "actual_candidate_exists": 0.9162946428571429,
+        "joint_selection_failure_given_exists": 0.18477279566656635,
+        "joint_selection_failure_all": 0.13705357142857144,
+        "actual_failures": 836,
+        "actual_failures_no_candidate": 375,
+        "actual_failures_selection": 461,
+        "actual_ready_but_failed": 0,
+        "p_spikes_mean": 0.19140625,
+        "copy_error_max": 0.5999247742447734,
+        "shadow_error_max": 0.0
+      },
+      "refit": {
+        "chains": 640,
+        "all7": 0.5265625,
+        "all7_A0": 0.95625,
+        "all7_A1": 0.096875,
+        "next1": 0.8515625,
+        "per_stage": [
+          0.8515625,
+          0.8921875,
+          0.8890625,
+          0.85625,
+          0.8609375,
+          0.8390625,
+          0.8515625
+        ],
+        "joint_candidate_exists": 0.8040178571428571,
+        "actual_candidate_exists": 0.9629464285714285,
+        "joint_selection_failure_given_exists": 0.10133259300388672,
+        "joint_selection_failure_all": 0.08147321428571429,
+        "actual_failures": 614,
+        "actual_failures_no_candidate": 166,
+        "actual_failures_selection": 448,
+        "actual_ready_but_failed": 0,
+        "p_spikes_mean": 0.3517578125,
+        "copy_error_max": 0.5999635517136307,
+        "shadow_error_max": 0.0
+      },
+      "fixed": {
+        "chains": 640,
+        "all7": 0.4890625,
+        "all7_A0": 0.884375,
+        "all7_A1": 0.09375,
+        "next1": 0.853125,
+        "per_stage": [
+          0.853125,
+          0.8796875,
+          0.8640625,
+          0.8640625,
+          0.85,
+          0.8234375,
+          0.81875
+        ],
+        "joint_candidate_exists": 0.8044642857142857,
+        "actual_candidate_exists": 0.965625,
+        "joint_selection_failure_given_exists": 0.14456159822419534,
+        "joint_selection_failure_all": 0.11629464285714286,
+        "actual_failures": 670,
+        "actual_failures_no_candidate": 154,
+        "actual_failures_selection": 516,
+        "actual_ready_but_failed": 0,
+        "p_spikes_mean": 0.351171875,
+        "copy_error_max": 0.5999635517136307,
+        "shadow_error_max": 0.0
+      },
+      "oracle": {
+        "chains": 640,
+        "all7": 0.56875,
+        "all7_A0": 0.95625,
+        "all7_A1": 0.18125,
+        "next1": 0.8703125,
+        "per_stage": [
+          0.8703125,
+          0.8578125,
+          0.840625,
+          0.83125,
+          0.859375,
+          0.8453125,
+          0.821875
+        ],
+        "joint_candidate_exists": 0.6872767857142857,
+        "actual_candidate_exists": 0.8709821428571428,
+        "joint_selection_failure_given_exists": 0.0,
+        "joint_selection_failure_all": 0.0,
+        "actual_failures": 687,
+        "actual_failures_no_candidate": 578,
+        "actual_failures_selection": 109,
+        "actual_ready_but_failed": 0,
+        "p_spikes_mean": 0.178125,
+        "copy_error_max": 0.5999658433487323,
+        "shadow_error_max": 0.0
+      }
+    },
+    "B2_repeat": {
+      "frozen": {
+        "chains": 640,
+        "all7": 0.403125,
+        "all7_A0": 0.7375,
+        "all7_A1": 0.06875,
+        "next1": 0.8125,
+        "per_stage": [
+          0.8125,
+          0.809375,
+          0.7671875,
+          0.7796875,
+          0.7890625,
+          0.8078125,
+          0.753125
+        ],
+        "joint_candidate_exists": 0.6993303571428572,
+        "actual_candidate_exists": 0.903125,
+        "joint_selection_failure_given_exists": 0.21417172039578677,
+        "joint_selection_failure_all": 0.1497767857142857,
+        "actual_failures": 948,
+        "actual_failures_no_candidate": 434,
+        "actual_failures_selection": 514,
+        "actual_ready_but_failed": 0,
+        "p_spikes_mean": 0.1623046875,
+        "copy_error_max": 0.5997530372091052,
+        "shadow_error_max": 0.0
+      },
+      "refit": {
+        "chains": 640,
+        "all7": 0.465625,
+        "all7_A0": 0.815625,
+        "all7_A1": 0.115625,
+        "next1": 0.875,
+        "per_stage": [
+          0.875,
+          0.8421875,
+          0.8421875,
+          0.809375,
+          0.8546875,
+          0.859375,
+          0.81875
+        ],
+        "joint_candidate_exists": 0.6899553571428572,
+        "actual_candidate_exists": 0.8959821428571428,
+        "joint_selection_failure_given_exists": 0.0537043028146231,
+        "joint_selection_failure_all": 0.03705357142857143,
+        "actual_failures": 703,
+        "actual_failures_no_candidate": 466,
+        "actual_failures_selection": 237,
+        "actual_ready_but_failed": 0,
+        "p_spikes_mean": 0.2353515625,
+        "copy_error_max": 0.6000000000000947,
+        "shadow_error_max": 0.0
+      },
+      "fixed": {
+        "chains": 640,
+        "all7": 0.459375,
+        "all7_A0": 0.821875,
+        "all7_A1": 0.096875,
+        "next1": 0.853125,
+        "per_stage": [
+          0.853125,
+          0.8328125,
+          0.8265625,
+          0.8046875,
+          0.83125,
+          0.8328125,
+          0.8046875
+        ],
+        "joint_candidate_exists": 0.6794642857142857,
+        "actual_candidate_exists": 0.8979910714285714,
+        "joint_selection_failure_given_exists": 0.08180026281208935,
+        "joint_selection_failure_all": 0.05558035714285714,
+        "actual_failures": 777,
+        "actual_failures_no_candidate": 457,
+        "actual_failures_selection": 320,
+        "actual_ready_but_failed": 0,
+        "p_spikes_mean": 0.172265625,
+        "copy_error_max": 0.6000000000000947,
+        "shadow_error_max": 0.0
+      },
+      "oracle": {
+        "chains": 640,
+        "all7": 0.525,
+        "all7_A0": 0.921875,
+        "all7_A1": 0.128125,
+        "next1": 0.8703125,
+        "per_stage": [
+          0.8703125,
+          0.85,
+          0.8171875,
+          0.8046875,
+          0.8546875,
+          0.8515625,
+          0.8078125
+        ],
+        "joint_candidate_exists": 0.6709821428571429,
+        "actual_candidate_exists": 0.8830357142857143,
+        "joint_selection_failure_given_exists": 0.0,
+        "joint_selection_failure_all": 0.0,
+        "actual_failures": 732,
+        "actual_failures_no_candidate": 524,
+        "actual_failures_selection": 208,
+        "actual_ready_but_failed": 0,
+        "p_spikes_mean": 0.2052734375,
+        "copy_error_max": 0.00038275370053808544,
+        "shadow_error_max": 0.0
+      }
+    },
+    "B3": {
+      "frozen": {
+        "chains": 640,
+        "all7": 0.4171875,
+        "all7_A0": 0.803125,
+        "all7_A1": 0.03125,
+        "next1": 0.75625,
+        "per_stage": [
+          0.75625,
+          0.771875,
+          0.7859375,
+          0.8,
+          0.8078125,
+          0.796875,
+          0.7703125
+        ],
+        "joint_candidate_exists": 0.6546875,
+        "actual_candidate_exists": 0.9714285714285714,
+        "joint_selection_failure_given_exists": 0.1046709853392431,
+        "joint_selection_failure_all": 0.06852678571428572,
+        "actual_failures": 967,
+        "actual_failures_no_candidate": 128,
+        "actual_failures_selection": 839,
+        "actual_ready_but_failed": 0,
+        "p_spikes_mean": 0.3587890625,
+        "copy_error_max": 0.5017675795133454,
+        "shadow_error_max": 0.0
+      },
+      "refit": {
+        "chains": 640,
+        "all7": 0.4859375,
+        "all7_A0": 0.940625,
+        "all7_A1": 0.03125,
+        "next1": 0.8296875,
+        "per_stage": [
+          0.8296875,
+          0.8171875,
+          0.8015625,
+          0.85,
+          0.85,
+          0.846875,
+          0.8265625
+        ],
+        "joint_candidate_exists": 0.6540178571428571,
+        "actual_candidate_exists": 0.9732142857142857,
+        "joint_selection_failure_given_exists": 0.016382252559726963,
+        "joint_selection_failure_all": 0.010714285714285714,
+        "actual_failures": 754,
+        "actual_failures_no_candidate": 120,
+        "actual_failures_selection": 634,
+        "actual_ready_but_failed": 0,
+        "p_spikes_mean": 0.2615234375,
+        "copy_error_max": 0.4098062992909774,
+        "shadow_error_max": 0.0
+      },
+      "fixed": {
+        "chains": 640,
+        "all7": 0.459375,
+        "all7_A0": 0.89375,
+        "all7_A1": 0.025,
+        "next1": 0.825,
+        "per_stage": [
+          0.825,
+          0.79375,
+          0.7375,
+          0.7609375,
+          0.8078125,
+          0.7890625,
+          0.759375
+        ],
+        "joint_candidate_exists": 0.6241071428571429,
+        "actual_candidate_exists": 0.9066964285714286,
+        "joint_selection_failure_given_exists": 0.11015736766809728,
+        "joint_selection_failure_all": 0.06875,
+        "actual_failures": 977,
+        "actual_failures_no_candidate": 418,
+        "actual_failures_selection": 559,
+        "actual_ready_but_failed": 0,
+        "p_spikes_mean": 0.12890625,
+        "copy_error_max": 0.3959538886202047,
+        "shadow_error_max": 0.0
+      },
+      "oracle": {
+        "chains": 640,
+        "all7": 0.5,
+        "all7_A0": 0.965625,
+        "all7_A1": 0.034375,
+        "next1": 0.8484375,
+        "per_stage": [
+          0.8484375,
+          0.8203125,
+          0.821875,
+          0.809375,
+          0.8359375,
+          0.8234375,
+          0.7796875
+        ],
+        "joint_candidate_exists": 0.6142857142857143,
+        "actual_candidate_exists": 0.9462053571428571,
+        "joint_selection_failure_given_exists": 0.0,
+        "joint_selection_failure_all": 0.0,
+        "actual_failures": 807,
+        "actual_failures_no_candidate": 241,
+        "actual_failures_selection": 566,
+        "actual_ready_but_failed": 0,
+        "p_spikes_mean": 0.3138671875,
+        "copy_error_max": 0.3959538886202047,
+        "shadow_error_max": 0.0
+      }
+    }
+  },
+  "contrasts_vs_B0": {
+    "B1": {
+      "frozen": {
+        "all7": {
+          "mean": -0.5796875,
+          "ci95": [
+            -0.60625,
+            -0.5546875
+          ],
+          "per_device": [
+            -0.6171875,
+            -0.59375,
+            -0.5859375,
+            -0.4609375,
+            -0.640625
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        },
+        "next1": {
+          "mean": -0.628125,
+          "ci95": [
+            -0.66875,
+            -0.5890625
+          ],
+          "per_device": [
+            -0.6171875,
+            -0.75,
+            -0.640625,
+            -0.5,
+            -0.6328125
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        }
+      },
+      "refit": {
+        "all7": {
+          "mean": -0.59375,
+          "ci95": [
+            -0.61875,
+            -0.5703125
+          ],
+          "per_device": [
+            -0.6640625,
+            -0.625,
+            -0.578125,
+            -0.515625,
+            -0.5859375
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        },
+        "next1": {
+          "mean": -0.6265625,
+          "ci95": [
+            -0.6625,
+            -0.590625
+          ],
+          "per_device": [
+            -0.65625,
+            -0.7265625,
+            -0.6171875,
+            -0.5390625,
+            -0.59375
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        }
+      },
+      "fixed": {
+        "all7": {
+          "mean": -0.3578125,
+          "ci95": [
+            -0.3875,
+            -0.328125
+          ],
+          "per_device": [
+            -0.4921875,
+            -0.328125,
+            -0.265625,
+            -0.375,
+            -0.328125
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        },
+        "next1": {
+          "mean": -0.4890625,
+          "ci95": [
+            -0.521875,
+            -0.453125
+          ],
+          "per_device": [
+            -0.59375,
+            -0.5234375,
+            -0.4140625,
+            -0.4765625,
+            -0.4375
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        }
+      },
+      "oracle": {
+        "all7": {
+          "mean": -0.590625,
+          "ci95": [
+            -0.6140625,
+            -0.5671875
+          ],
+          "per_device": [
+            -0.65625,
+            -0.5546875,
+            -0.5859375,
+            -0.546875,
+            -0.609375
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        },
+        "next1": {
+          "mean": -0.646875,
+          "ci95": [
+            -0.690625,
+            -0.603125
+          ],
+          "per_device": [
+            -0.65625,
+            -0.7578125,
+            -0.6484375,
+            -0.5703125,
+            -0.6015625
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        }
+      }
+    },
+    "B2_once": {
+      "frozen": {
+        "all7": {
+          "mean": -0.0953125,
+          "ci95": [
+            -0.13125,
+            -0.0625
+          ],
+          "per_device": [
+            -0.171875,
+            -0.0625,
+            -0.0859375,
+            -0.046875,
+            -0.109375
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        },
+        "next1": {
+          "mean": -0.08125,
+          "ci95": [
+            -0.1125,
+            -0.05
+          ],
+          "per_device": [
+            -0.0078125,
+            -0.0546875,
+            -0.125,
+            -0.0625,
+            -0.15625
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        }
+      },
+      "refit": {
+        "all7": {
+          "mean": -0.0703125,
+          "ci95": [
+            -0.1015625,
+            -0.040625
+          ],
+          "per_device": [
+            -0.15625,
+            -0.1015625,
+            -0.046875,
+            -0.0234375,
+            -0.0234375
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        },
+        "next1": {
+          "mean": -0.0546875,
+          "ci95": [
+            -0.084375,
+            -0.0265625
+          ],
+          "per_device": [
+            -0.03125,
+            -0.015625,
+            -0.0625,
+            -0.0859375,
+            -0.078125
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        }
+      },
+      "fixed": {
+        "all7": {
+          "mean": 0.128125,
+          "ci95": [
+            0.0983984375,
+            0.159375
+          ],
+          "per_device": [
+            0.0546875,
+            0.1015625,
+            0.203125,
+            0.1171875,
+            0.1640625
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        },
+        "next1": {
+          "mean": 0.084375,
+          "ci95": [
+            0.040625,
+            0.1296875
+          ],
+          "per_device": [
+            0.0546875,
+            0.1875,
+            0.140625,
+            -0.0390625,
+            0.078125
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        }
+      },
+      "oracle": {
+        "all7": {
+          "mean": -0.025,
+          "ci95": [
+            -0.053125,
+            0.0015625
+          ],
+          "per_device": [
+            0.0,
+            0.0078125,
+            -0.0859375,
+            0.015625,
+            -0.0625
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        },
+        "next1": {
+          "mean": -0.0515625,
+          "ci95": [
+            -0.0734375,
+            -0.0296875
+          ],
+          "per_device": [
+            0.03125,
+            -0.0234375,
+            -0.140625,
+            -0.0078125,
+            -0.1171875
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        }
+      }
+    },
+    "B2_repeat": {
+      "frozen": {
+        "all7": {
+          "mean": -0.1796875,
+          "ci95": [
+            -0.209375,
+            -0.15
+          ],
+          "per_device": [
+            -0.3671875,
+            -0.0703125,
+            -0.078125,
+            -0.2578125,
+            -0.125
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        },
+        "next1": {
+          "mean": -0.08125,
+          "ci95": [
+            -0.1125,
+            -0.05
+          ],
+          "per_device": [
+            -0.0078125,
+            -0.0546875,
+            -0.125,
+            -0.0625,
+            -0.15625
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        }
+      },
+      "refit": {
+        "all7": {
+          "mean": -0.13125,
+          "ci95": [
+            -0.1625,
+            -0.1
+          ],
+          "per_device": [
+            -0.3125,
+            -0.078125,
+            -0.046875,
+            -0.1875,
+            -0.03125
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        },
+        "next1": {
+          "mean": -0.03125,
+          "ci95": [
+            -0.059375,
+            -0.003125
+          ],
+          "per_device": [
+            0.0,
+            -0.015625,
+            -0.0625,
+            0.0,
+            -0.078125
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        }
+      },
+      "fixed": {
+        "all7": {
+          "mean": 0.0984375,
+          "ci95": [
+            0.059375,
+            0.1390625
+          ],
+          "per_device": [
+            -0.140625,
+            0.2109375,
+            0.265625,
+            -0.0703125,
+            0.2265625
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        },
+        "next1": {
+          "mean": 0.084375,
+          "ci95": [
+            0.040625,
+            0.1296875
+          ],
+          "per_device": [
+            0.0546875,
+            0.1875,
+            0.140625,
+            -0.0390625,
+            0.078125
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        }
+      },
+      "oracle": {
+        "all7": {
+          "mean": -0.06875,
+          "ci95": [
+            -0.0921875,
+            -0.046875
+          ],
+          "per_device": [
+            -0.09375,
+            -0.0078125,
+            -0.0859375,
+            -0.0703125,
+            -0.0859375
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        },
+        "next1": {
+          "mean": -0.0515625,
+          "ci95": [
+            -0.0734375,
+            -0.0296875
+          ],
+          "per_device": [
+            0.03125,
+            -0.0234375,
+            -0.140625,
+            -0.0078125,
+            -0.1171875
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        }
+      }
+    },
+    "B3": {
+      "frozen": {
+        "all7": {
+          "mean": -0.165625,
+          "ci95": [
+            -0.1953125,
+            -0.1359375
+          ],
+          "per_device": [
+            -0.3125,
+            -0.078125,
+            -0.0703125,
+            -0.25,
+            -0.1171875
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        },
+        "next1": {
+          "mean": -0.1375,
+          "ci95": [
+            -0.1625,
+            -0.1125
+          ],
+          "per_device": [
+            -0.1875,
+            -0.0625,
+            -0.0625,
+            -0.2890625,
+            -0.0859375
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        }
+      },
+      "refit": {
+        "all7": {
+          "mean": -0.1109375,
+          "ci95": [
+            -0.1375,
+            -0.084375
+          ],
+          "per_device": [
+            -0.1953125,
+            -0.1171875,
+            -0.0546875,
+            -0.1171875,
+            -0.0703125
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        },
+        "next1": {
+          "mean": -0.0765625,
+          "ci95": [
+            -0.1109375,
+            -0.0421875
+          ],
+          "per_device": [
+            -0.0078125,
+            -0.0859375,
+            -0.015625,
+            -0.1796875,
+            -0.09375
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        }
+      },
+      "fixed": {
+        "all7": {
+          "mean": 0.0984375,
+          "ci95": [
+            0.065625,
+            0.13125
+          ],
+          "per_device": [
+            -0.078125,
+            0.1953125,
+            0.234375,
+            -0.0546875,
+            0.1953125
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        },
+        "next1": {
+          "mean": 0.05625,
+          "ci95": [
+            0.0125,
+            0.1015625
+          ],
+          "per_device": [
+            0.0546875,
+            0.1171875,
+            0.1796875,
+            -0.125,
+            0.0546875
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        }
+      },
+      "oracle": {
+        "all7": {
+          "mean": -0.09375,
+          "ci95": [
+            -0.1171875,
+            -0.06875
+          ],
+          "per_device": [
+            -0.1640625,
+            -0.0234375,
+            -0.078125,
+            -0.1171875,
+            -0.0859375
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        },
+        "next1": {
+          "mean": -0.0734375,
+          "ci95": [
+            -0.09375,
+            -0.0515625
+          ],
+          "per_device": [
+            -0.03125,
+            -0.09375,
+            -0.0546875,
+            -0.078125,
+            -0.109375
+          ],
+          "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+        }
+      }
+    }
+  },
+  "refit_vs_fixed": {
+    "B0": {
+      "mean": 0.2359375,
+      "ci95": [
+        0.203125,
+        0.271875
+      ],
+      "per_device": [
+        0.171875,
+        0.296875,
+        0.3125,
+        0.140625,
+        0.2578125
+      ],
+      "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+    },
+    "B1": {
+      "mean": 0.0,
+      "ci95": [
+        0.0,
+        0.0
+      ],
+      "per_device": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+    },
+    "B2_once": {
+      "mean": 0.0375,
+      "ci95": [
+        0.015625,
+        0.059375
+      ],
+      "per_device": [
+        -0.0390625,
+        0.09375,
+        0.0625,
+        0.0,
+        0.0703125
+      ],
+      "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+    },
+    "B2_repeat": {
+      "mean": 0.00625,
+      "ci95": [
+        -0.01875,
+        0.0296875
+      ],
+      "per_device": [
+        0.0,
+        0.0078125,
+        0.0,
+        0.0234375,
+        0.0
+      ],
+      "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+    },
+    "B3": {
+      "mean": 0.0265625,
+      "ci95": [
+        0.009375,
+        0.04375
+      ],
+      "per_device": [
+        0.0546875,
+        -0.015625,
+        0.0234375,
+        0.078125,
+        -0.0078125
+      ],
+      "inference": "descriptive paired group bootstrap conditional on five fixed circuits; holds paired; no multiplicity-adjusted decision"
+    }
+  },
+  "transplant": {
+    "eligible": 624,
+    "total": 640,
+    "mean_abs_m_displacement": 0.014695073954890212,
+    "scores": {
+      "original_correct": 0.7596153846153846,
+      "misinformation_only": 0.7548076923076923,
+      "transplant_stale": 0.7644230769230769,
+      "transplant_informed": 0.7628205128205128,
+      "oracle_stale": 0.7916666666666666,
+      "oracle_informed": 0.8076923076923077
+    },
+    "scope": "first decision only; selected matched subset; exact thermometer readout and oracle are privileged diagnostics; no generalization or confirmatory test"
+  }
+}

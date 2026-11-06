@@ -1,0 +1,16 @@
+{
+  "key": "EWC2016",
+  "paper_id": "arxiv:1612.00796",
+  "title": "Overcoming catastrophic forgetting in neural networks",
+  "authors": "James Kirkpatrick, Razvan Pascanu, Neil Rabinowitz, Joel Veness, Guillaume Desjardins, Andrei A. Rusu, Kieran Milan, John Quan, Tiago Ramalho, Agnieszka Grabska-Barwinska, Demis Hassabis, Claudia Clopath, Dharshan Kumaran, Raia Hadsell",
+  "year_cited": 2016,
+  "url": "https://arxiv.org/abs/1612.00796",
+  "locator": "Section 2: Elastic weight consolidation",
+  "claim_used": "A parameter-importance-weighted penalty constrains change during learning of another task.",
+  "short_source_excerpt": "This algorithm slows down learning on certain weights based on how important they are to\npreviously seen tasks. We show how EWC can be used in supervised learning and reinforcement\nlearning problems to train several …",
+  "retrieval_method": "retrieved in-body passages; not a complete paper read",
+  "coverage": "relevant method passages; not exhaustive literature coverage",
+  "retrieval_date": "2026-11-06",
+  "raw_retrieval_sha256": "9b8a9ad3af5f30bff0781ecfbafd3a5041344b50a4f49b68ad9c327233923f2a",
+  "raw_record_scope": "full retrieval remains in local scratch, not redistributed in the manuscript bundle"
+}

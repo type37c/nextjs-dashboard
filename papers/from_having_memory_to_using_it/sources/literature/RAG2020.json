@@ -1,0 +1,16 @@
+{
+  "key": "RAG2020",
+  "paper_id": "arxiv:2005.11401",
+  "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+  "authors": "Patrick Lewis, Ethan Perez, Aleksandra Piktus, Fabio Petroni, Vladimir Karpukhin, Naman Goyal, Heinrich Küttler, Mike Lewis, Wen-tau Yih, Tim Rocktäschel, Sebastian Riedel, Douwe Kiela",
+  "year_cited": 2020,
+  "url": "https://arxiv.org/abs/2005.11401",
+  "locator": "Introduction; Sections 2.2–2.4",
+  "claim_used": "A parametric generator conditions on documents accessed from a non-parametric index.",
+  "short_source_excerpt": "We build RAG models where the parametric memory is a pre-trained seq2seq transformer, and the non-parametric memory is a dense vector index of Wikipedia, accessed with a pre-trained neural retriever. We combine these …",
+  "retrieval_method": "retrieved in-body passages; not a complete paper read",
+  "coverage": "relevant method passages; not exhaustive literature coverage",
+  "retrieval_date": "2026-11-06",
+  "raw_retrieval_sha256": "bf9fe57e84ed724bc02334759740039c60444381be2129e260172967319410c0",
+  "raw_record_scope": "full retrieval remains in local scratch, not redistributed in the manuscript bundle"
+}

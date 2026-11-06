@@ -1,0 +1,24 @@
+{
+  "key": "EPROP2020",
+  "paper_id": "doi:10.1038/s41467-020-17236-y",
+  "title": "A solution to the learning dilemma for recurrent networks of spiking neurons",
+  "authors": [
+    "Bellec, Guillaume",
+    "Scherr, Franz",
+    "Subramoney, Anand",
+    "Hajek, Elias",
+    "Salaj, Darjan",
+    "Legenstein, Robert",
+    "Maass, Wolfgang"
+  ],
+  "year_cited": 2020,
+  "url": "https://www.nature.com/articles/s41467-020-17236-y",
+  "locator": "Introduction; Results: Mathematical basis for e-prop, equations 1–2",
+  "claim_used": "E-prop combines locally computed eligibility traces with learning signals for recurrent-network learning.",
+  "short_source_excerpt": "A re-analysis of the mathematical basis of gradient descent learning in recurrent neural networks tells us how local eligibility traces and top–down learning signals should be optimally combined—without requiring …",
+  "retrieval_method": "publisher article after paper-index full-text passages unavailable",
+  "coverage": "relevant method passages; not exhaustive literature coverage",
+  "retrieval_date": "2026-11-06",
+  "raw_retrieval_sha256": "49ba169f79431b956230750a04d3c062c23a6448f9d660dc646aefd20a2bc43f",
+  "raw_record_scope": "full retrieval remains in local scratch, not redistributed in the manuscript bundle"
+}

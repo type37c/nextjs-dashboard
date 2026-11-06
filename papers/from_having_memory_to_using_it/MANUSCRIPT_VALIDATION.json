@@ -1,0 +1,40 @@
+{
+  "status": "document checks only; no new acquisition or statistical inference",
+  "reviewed_manuscript_commit": "2e9bf8c066dffe24e11a7e15326416603552e34a",
+  "experiment_result_commit": "bed5dc0462483997fa517fe0c91e997e81635b9a",
+  "checks": {
+    "assembled_draft_matches_source_parts": true,
+    "section_4_unchanged_from_reviewed_commit": true,
+    "unchanged_prior_source_and_figure_files": 42,
+    "experiment_artifacts_unchanged_against_delivery_manifest": 2251,
+    "all_manuscript_citations_and_local_targets_resolve": true,
+    "Japanese_appendices_remain_synchronized": true,
+    "OTB21_table_matches_previously_saved_aggregates": true,
+    "MC5C_quoted_means_and_interval_match_saved_unrounded_scores": true,
+    "earlier_minimum_effect_decision_preserved": true,
+    "OTB20_OTB22_E3b_counts_located_in_primary_reports": true,
+    "eight_literature_records_bibkeys_urls_and_hashes_match": true
+  },
+  "manual_review_scope": "OTB20/21/22, MC5C/5D, E3b report interpretation; eight primary literature method passages. Not an exhaustive literature review or external replication.",
+  "limitations": "Automated numeric checks cover the listed citations. They do not independently verify every prose claim or all raw experimental records. The prior Section 4 validation is preserved in archive/revision_1_3/.",
+  "manuscript_word_count_whitespace_including_tables_and_references": 8502,
+  "manuscript_files": {
+    "CASE_STUDY.en.md": "1a57951229e084a084d5dddbcad73e95f0a70716725121e5f4619a4021461d9a",
+    "CONCLUSION_AND_PROTOCOL.en.md": "efb9fca0857d882684c2c1058befcdb0e5ccb934fc953f163c54679caaa12a44",
+    "DETAILED_OUTLINE_2026-11-06.md": "12a57bddd4721c8d2fd727c5dfa28fd0ad1b5899f8d25ada13e0682577d7ceac",
+    "EVIDENCE_MAP.ja.md": "eae9009b25dfa3af8002c3fe64e8f6bd06c7c27f62e8d60b061c915bf0a0d78e",
+    "FRONT_MATTER.en.md": "227dd687045dbbbd43e5590738b33bcdf8e92f5fb506d0956bd000cf76f9bef7",
+    "LITERATURE_CHECK.md": "5029365c10c9aeed0a94a32d4ff19976ff87b4490bbb3064008f9297277171de",
+    "MANUSCRIPT.en.md": "92adf719262b7acc87eada1c33013e6bc92027c85d6b55a2a844702892b6bd2c",
+    "READER_PROTOCOL.ja.md": "cffccc8144b22be80ef333198310126c763c5f841561ec962e14a351668782ac",
+    "README.md": "06fa815fcdbae572f44e009e298598978f760d96a9c31a9328f6d33285bf07ba",
+    "REFERENCES.md": "e1a9fc7228131734cee987725e602cda2e397b7a44daa0ba3980ebdb12070c38",
+    "SECTIONS_5_7.en.md": "3bc509a91ccfe64a23c38f2aff46df87da879f850aebd832de5db737f7980849",
+    "SECTION_4.en.md": "66906208aa7fb09347410e17d608b93ca2ad8dfcd8bc0bbb6ee63f6ce2239472",
+    "WRITING_CHANGELOG.ja.md": "7aabf966bc0727b68384b9769c5fd4156cbbacc1fedb1cc0925ae303f10d9630",
+    "WRONG_HISTORY_GENERALIZATION.en.md": "63f897dc9d93eea7eb3372efb9bf1603515880b7ac756245a850e5a739f4630f",
+    "assemble_manuscript.py": "8292a3d448d0e0b383b0b65d5dc0cf18d08d811e16ac3d57c55e1167b68bd87c",
+    "references.bib": "0fcb8a65ebbd80efc636160d4c3eec7db643896b303a781bae850015dbc3df66",
+    "validate_manuscript.py": "b94a9fc42236452a84be8a75069de267886cd58763976859607d8b7afd6ccc1c"
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "WH_analysis.json": {
+    "repository_path": "results/wrong_history_generalization/main/analysis.json",
+    "sha256": "add4881c8a2818d57b6e7c7df6e8fc079cba64b773790d091b3a7ee196f3e4b1",
+    "evidence_commit": "bed5dc0462483997fa517fe0c91e997e81635b9a",
+    "publicly_pushed": false,
+    "verbatim_snapshot": true
+  },
+  "WH_saved_data_audit.json": {
+    "repository_path": "results/wrong_history_generalization/main/saved_data_audit.json",
+    "sha256": "334babc7c84365a6650729b950a035a062f054d393f2609dde6c4f26a0b4f9fd",
+    "evidence_commit": "bed5dc0462483997fa517fe0c91e997e81635b9a",
+    "publicly_pushed": false,
+    "verbatim_snapshot": true
+  },
+  "WH_dynamics_audit.json": {
+    "repository_path": "results/wrong_history_generalization/main/dynamics_audit.json",
+    "sha256": "657595f974f1c17b9d4146416ee18b955cb1fc725f755721c258f45815252201",
+    "evidence_commit": "bed5dc0462483997fa517fe0c91e997e81635b9a",
+    "publicly_pushed": false,
+    "verbatim_snapshot": true
+  },
+  "WH_delivery_audit.json": {
+    "repository_path": "results/wrong_history_generalization/main/delivery_audit.json",
+    "sha256": "9a1efe8e5a76b91652313f19d88da53eac63b18bef77fc106769d4f106a15520",
+    "evidence_commit": "bed5dc0462483997fa517fe0c91e997e81635b9a",
+    "publicly_pushed": false,
+    "verbatim_snapshot": true
+  },
+  "WH_PLAN.md": {
+    "repository_path": "experiments/wrong_history_generalization/PLAN.md",
+    "sha256": "9c7a708fde091f9b5ee81b3ee82eeb7836134f11674632741892fb31f29d375b",
+    "evidence_commit": "bed5dc0462483997fa517fe0c91e997e81635b9a",
+    "publicly_pushed": false,
+    "verbatim_snapshot": true
+  },
+  "WH_FREEZE.json": {
+    "repository_path": "experiments/wrong_history_generalization/FREEZE.json",
+    "sha256": "e6934e72fbc502282a7122c116c3c4dce0a1d42fc5c72c68d4396db64798c2f4",
+    "evidence_commit": "bed5dc0462483997fa517fe0c91e997e81635b9a",
+    "publicly_pushed": false,
+    "verbatim_snapshot": true
+  },
+  "WH_REPORT.ja.md": {
+    "repository_path": "results/wrong_history_generalization/main/REPORT.ja.md",
+    "sha256": "46411647d38034f0c11ef0a71963efdb6c3370bf0ec39f97f472ef1b2eca0f6b",
+    "evidence_commit": "bed5dc0462483997fa517fe0c91e997e81635b9a",
+    "publicly_pushed": false,
+    "verbatim_snapshot": true
+  },
+  "WH_PILOT_REPORT.md": {
+    "repository_path": "experiments/wrong_history_generalization/PILOT_REPORT.md",
+    "sha256": "ac7faa4443fd40ba04e57f76318a5a468199f979901521cb6e6b0720652c086e",
+    "evidence_commit": "bed5dc0462483997fa517fe0c91e997e81635b9a",
+    "publicly_pushed": false,
+    "verbatim_snapshot": true
+  },
+  "wrong_history_generalization.png": {
+    "repository_path": "results/wrong_history_generalization/main/wrong_history_generalization.png",
+    "sha256": "7b6158d286c8de62da7a1105cb626062c09a2e0085ec92159e657b314ec731e5",
+    "evidence_commit": "bed5dc0462483997fa517fe0c91e997e81635b9a",
+    "publicly_pushed": false,
+    "verbatim_snapshot": true
+  }
+}

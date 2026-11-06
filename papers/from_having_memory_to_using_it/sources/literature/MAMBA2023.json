@@ -1,0 +1,16 @@
+{
+  "key": "MAMBA2023",
+  "paper_id": "arxiv:2312.00752",
+  "title": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+  "authors": "Albert Gu, Tri Dao",
+  "year_cited": 2023,
+  "url": "https://arxiv.org/abs/2312.00752",
+  "locator": "Section 3.2; Section 3.5 interpretations of selective parameters",
+  "claim_used": "Input-dependent state-space parameters implement selective propagation or forgetting.",
+  "short_source_excerpt": "One method of incorporating a selection mechanism into models is by letting their parameters that affect interactions along the sequence (e.g. the recurrent dynamics of an RNN or the convolution kernel of a CNN) be …",
+  "retrieval_method": "retrieved in-body passages; not a complete paper read",
+  "coverage": "relevant method passages; not exhaustive literature coverage",
+  "retrieval_date": "2026-11-06",
+  "raw_retrieval_sha256": "5bc78c8d62db9bfc5cb913ea22cbb99eea5e8f73c4faf0ddbaf981a2cb66483f",
+  "raw_record_scope": "full retrieval remains in local scratch, not redistributed in the manuscript bundle"
+}

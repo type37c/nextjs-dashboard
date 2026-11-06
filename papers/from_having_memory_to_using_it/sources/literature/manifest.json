@@ -1,0 +1,13 @@
+{
+  "scope": "focused primary-passage checks; no new experiment",
+  "records": {
+    "ALIF2018": "8fcadbe825bf2a8d68c776539b6b0cd06d9b275efa14ba43f276ff7302f6b6d8",
+    "EPROP2020": "c9bb38a0bebe3c65c99e11114365878d7d3155a35e7754be8286203b9dcbb1da",
+    "DAMB2012": "d1aee44aeee10564febf8d16daffff8d4d5d4ef87053b100a9195b669b4d508e",
+    "GRU2014": "478a91bc1a4956634e54b0b3e1d4ae821657c521a1409011ce4dd9fd51bacbac",
+    "MAMBA2023": "9e390465d7602d02b1c19d5f217c40243685f4e9519fb210a1439b36690ba74c",
+    "EWC2016": "b93d1a8b115080104b56611a6caa69b9fa955c44d26a790c707c32fb9c66ec5a",
+    "NTM2014": "e46e6607d9f6d9b45e931ac7de5ec5cb5df64d7564bede414dfa50b0d269cbc5",
+    "RAG2020": "a3a8841d40b4961d72e7145f922a2a67dbc2f468ccb60c1c92e8090b46088099"
+  }
+}

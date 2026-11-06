@@ -1,0 +1,44 @@
+{
+  "HISTORY_COUPLING_PILOT_REPORT.ja.md": {
+    "repository_path": "experiments/history_coupling_pilot/REPORT.ja.md",
+    "sha256": "c1520a2d6a212234e78d07212667fc49b4b8e47452e9aee1dcc2a8b643b1e794",
+    "evidence_commit": "bd22f95",
+    "publicly_pushed": false
+  },
+  "HISTORY_COUPLING_PILOT_summary.json": {
+    "repository_path": "results/history_coupling_pilot/summary.json",
+    "sha256": "ecb9db0985e3d75bcdb91a8dcce7b442c943aa72fd36c58d3b1c03116a3cc0da",
+    "evidence_commit": "bd22f95",
+    "publicly_pushed": false
+  },
+  "HISTORY_COUPLING_CONFIRMATION_REPORT.ja.md": {
+    "repository_path": "experiments/history_coupling_confirmation/REPORT.ja.md",
+    "sha256": "e95c1cefe7b230dd2babb79f1774b2b3571d76048e6f36b8f1e7a2aacc587f32",
+    "evidence_commit": "bd22f95",
+    "publicly_pushed": false
+  },
+  "HISTORY_COUPLING_CONFIRMATION_summary.json": {
+    "repository_path": "results/history_coupling_confirmation/summary.json",
+    "sha256": "09bbe4ce02814f1492131aa745906890f00020927b64a6b1d31bad49452c18e6",
+    "evidence_commit": "bd22f95",
+    "publicly_pushed": false
+  },
+  "HISTORY_COUPLING_CONFIRMATION_PROTOCOL.ja.md": {
+    "repository_path": "experiments/history_coupling_confirmation/PROTOCOL.ja.md",
+    "sha256": "fed98726d5ee5929235cfe45ee980a6450fbe1c04e4adaafa66735ef2aa6050c",
+    "evidence_commit": "bd22f95",
+    "publicly_pushed": false
+  },
+  "HISTORY_COUPLING_CONFIRMATION_FREEZE.json": {
+    "repository_path": "experiments/history_coupling_confirmation/FREEZE.json",
+    "sha256": "a341bfa3f5ca845320788da83b37bf205349d35a81e7e00ef3200f1fe78a1904",
+    "evidence_commit": "bd22f95",
+    "publicly_pushed": false
+  },
+  "HISTORY_COUPLING_PILOT_CODE.py": {
+    "repository_path": "experiments/history_coupling_pilot/pilot.py",
+    "sha256": "e5151202801265c71f3f6fed9f953358566196671a442b7f79a0dfe5f046a27a",
+    "evidence_commit": "bd22f95",
+    "publicly_pushed": false
+  }
+}

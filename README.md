@@ -37,6 +37,25 @@ This loop makes retained history part of the system's dynamics. It also creates 
 
 Read the [research map and evidence levels](docs/RESEARCH_MAP.md). The four directions organize the program; they are not four completed capabilities of a single integrated AI.
 
+## Position paper — working draft
+
+**[From Having Memory to Using It: A Research Agenda for Memory-Dependent Computation](papers/from_having_memory_to_using_it/MANUSCRIPT.en.md)**
+
+A draft about three barriers between retaining history and using it: reading and
+preparation selection, learning while retaining old relations, and using experience
+held by another system. It includes adverse results, unresolved interpretations,
+and a protocol readers can apply to their own models. This is a research agenda,
+not a claim of general oscillator superiority or a peer-reviewed publication.
+
+[Draft and evidence guide](papers/from_having_memory_to_using_it/README.md) ·
+[Reviewed bundle](papers/from_having_memory_to_using_it/downloads/OSCILLATOR_MIND_PAPER_FULL_DRAFT_2026-11-06.zip) ·
+[Primary-literature checks](papers/from_having_memory_to_using_it/LITERATURE_CHECK.md) ·
+[Publication scope](papers/from_having_memory_to_using_it/PUBLICATION.md)
+
+The cited reports and saved summaries are included. The complete reproduction
+package for the new history-intervention experiments is not included in this draft
+release; OTB21 remains the fully bundled reproducible study below.
+
 ## Reproducible studies
 
 ### OTB21 — Learning readiness and memory interference

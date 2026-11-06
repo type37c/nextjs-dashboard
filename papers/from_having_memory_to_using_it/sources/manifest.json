@@ -1,0 +1,85 @@
+{
+  "checkedOn": "2026-11-06",
+  "verification": "Source inspection and selected aggregate checks; no new simulation or independent replication in this task.",
+  "sources": [
+    {
+      "file": "MC5C_REPORT.md",
+      "gitBlob": "810cb24aa2dbeed34b47fe0afebe8c16c785fa2e",
+      "url": "https://github.com/type37c/oscillator-arithmetic/blob/045756c15a1f7d1acce20c89fabfacb23870398d/experiments/mc5c_relay_confirm/MC5C_REPORT.md",
+      "localFileSha256": "b3a5d12dbb1d359e19f5986933658cebb9fc8d765f4027cf373142663d71efbd",
+      "localFileMatchesGitBlob": true
+    },
+    {
+      "file": "MC5D_REPORT.md",
+      "gitBlob": "2abf3c39c6ca195fe2301a8007680b6392e534e5",
+      "url": "https://github.com/type37c/oscillator-arithmetic/blob/045756c15a1f7d1acce20c89fabfacb23870398d/experiments/mc5d_relay_diagnosis/MC5D_REPORT.md",
+      "localFileSha256": "c13226823e00f4cbd44354cc45855abc86f7af483300cd5b7bfe93acbc160d5b",
+      "localFileMatchesGitBlob": true
+    },
+    {
+      "file": "MC4X_REPORT.md",
+      "gitBlob": "289f1af30f16cb2e2680eb504a2db81f71934644",
+      "url": "https://github.com/type37c/oscillator-arithmetic/blob/045756c15a1f7d1acce20c89fabfacb23870398d/experiments/mc4_memory_to_computation/MC4X_REPORT.md",
+      "localFileSha256": "7ae002638eadac3d2310aa1d56355050a1f30938a02085d6e1b2fc38e55029d6",
+      "localFileMatchesGitBlob": true
+    },
+    {
+      "file": "E3B_REPORT.md",
+      "gitBlob": "65c6aeae631a42fa1e8800563b464e0d52c85f2e",
+      "url": "https://github.com/type37c/oscillator-arithmetic/blob/045756c15a1f7d1acce20c89fabfacb23870398d/experiments/e3b_gru_training/E3B_REPORT.md",
+      "localFileSha256": "58c10151a1e07c205b766a4cfe3d4304c4b4e0309ced0325da65ec75024b28f3",
+      "localFileMatchesGitBlob": true
+    },
+    {
+      "file": "E7D_REPORT.md",
+      "gitBlob": "a5d7300795a69518a01f1bc921874c65ccdf738a",
+      "url": "https://github.com/type37c/oscillator-arithmetic/blob/01d84b5a41cc8d521724bbaa0127601b086b9936/experiments/e7d_confirm/E7DCF_REPORT.md",
+      "localFileSha256": "3fd56d262c96eecda0c393e0a00defccdb0af4d7b437976bcc7ee4adda030098",
+      "localFileMatchesGitBlob": true
+    },
+    {
+      "file": "E7D_PLAN.md",
+      "gitBlob": "3922de698093428728d536b2fa217b110efa20d2",
+      "url": "https://github.com/type37c/oscillator-arithmetic/blob/01d84b5a41cc8d521724bbaa0127601b086b9936/experiments/e7d_confirm/PLAN.md",
+      "localFileSha256": "100a82294d300abb0924eac723f948f2c957b84faae96d60b81e060a2e7f207e",
+      "localFileMatchesGitBlob": true
+    },
+    {
+      "file": "E7D_results.json",
+      "gitBlob": "4aeb2f543e8034f8f0e320bf5b192945881fc85d",
+      "url": "https://github.com/type37c/oscillator-arithmetic/blob/01d84b5a41cc8d521724bbaa0127601b086b9936/results/e7d_confirm/results.json",
+      "localFileSha256": "d6509c9ab7c75b867eaae6995a0364bd1bceefa0f9be95e43e89bd9fc9633b16",
+      "localFileMatchesGitBlob": true
+    },
+    {
+      "file": "MC5C_verdicts.json",
+      "gitBlob": "f0c98cd5c6acb99402f1911e527ce4bef0ef98d4",
+      "url": "https://github.com/type37c/oscillator-arithmetic/blob/045756c15a1f7d1acce20c89fabfacb23870398d/results/mc5c_relay_confirm/verdicts.json",
+      "localFileSha256": "b90961524f2cf4ef34736ed5a24dd45e57a9e4d56936a3a91ea2097077ae9a01",
+      "localFileMatchesGitBlob": true
+    },
+    {
+      "file": "OTB21_REPORT.md",
+      "gitBlob": "3a25402102d82067d795429dbe52858966e088b7",
+      "url": "https://github.com/type37c/oscillator-mind/blob/1c70be3bc7df1bce568e6dc102dde7a573e00597/results/otb21_readiness_history_validation/REPORT.md",
+      "localFileSha256": "413e21a930e59fa035c4073034a67ae7df0fd3e9c479637a0e0c820c34589d15",
+      "localFileMatchesGitBlob": true
+    },
+    {
+      "file": "OTB20_REPORT.md",
+      "url": "https://github.com/type37c/oscillator-arithmetic/blob/e3a5e1e66eae794a7fd56bae5f4d5054a74528c2/results/otb20_bounded_error_amplification/REPORT.md",
+      "gitBlob": "be89aca2dfb928d66239a7b8f08a258b6e8f4eed",
+      "localFileSha256": "a56d00f55774431498ab09c052b4f2b936100155ef32b6088829a8a562619bbc",
+      "localFileMatchesGitBlob": true,
+      "websiteSnapshotSha256": "537a2a677a7733ab2184d559dc03dcc389e6cb511c8064af15f9e2d95af2d831"
+    },
+    {
+      "file": "OTB22_REPORT.md",
+      "url": "https://github.com/type37c/oscillator-arithmetic/blob/e3a5e1e66eae794a7fd56bae5f4d5054a74528c2/results/otb22_shared_experience_network/REPORT.md",
+      "gitBlob": "80705080579ba49fdda0333b79793aea0becb68c",
+      "localFileSha256": "457e9cd628f6f6b24b879867ae4f91e1a52eb1953050b6a135a591fc2fc9fd50",
+      "localFileMatchesGitBlob": true,
+      "websiteSnapshotSha256": "457e9cd628f6f6b24b879867ae4f91e1a52eb1953050b6a135a591fc2fc9fd50"
+    }
+  ]
+}

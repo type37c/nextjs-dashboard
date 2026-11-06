@@ -1,0 +1,21 @@
+{
+  "key": "DAMB2012",
+  "paper_id": "doi:10.1038/srep00514",
+  "title": "Information Processing Capacity of Dynamical Systems",
+  "authors": [
+    "Dambre, Joni",
+    "Verstraeten, David",
+    "Schrauwen, Benjamin",
+    "Massar, Serge"
+  ],
+  "year_cited": 2012,
+  "url": "https://www.nature.com/articles/srep00514",
+  "locator": "Results: capacity definition and Proposition 3; subsequent capacity bounds",
+  "claim_used": "Capacity is assessed through linear reconstruction of functions of input history; assumptions constrain the interpretation and bounds.",
+  "short_source_excerpt": "The capacity is based on simple linear estimators ![](https://media.springernature.com/lw124/springer-static/image/art%3A10.1038%2Fsrep00514/MediaObjects/41598_2012_Article_BFsrep00514_IEq9_HTML.jpg). For this reason …",
+  "retrieval_method": "publisher article after paper-index full-text passages unavailable",
+  "coverage": "relevant method passages; not exhaustive literature coverage",
+  "retrieval_date": "2026-11-06",
+  "raw_retrieval_sha256": "80ddaf118eeb6e26dd7741b61bc213f3f483889276ea1f96c88ee86954ad7a66",
+  "raw_record_scope": "full retrieval remains in local scratch, not redistributed in the manuscript bundle"
+}

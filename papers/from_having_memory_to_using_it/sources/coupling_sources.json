@@ -1,0 +1,20 @@
+[
+  {
+    "file": "E6_REPORT.md",
+    "gitBlob": "a0a0815c784f163749e04d6e89e118fc55491b49",
+    "url": "https://github.com/type37c/oscillator-arithmetic/blob/01d84b5a41cc8d521724bbaa0127601b086b9936/experiments/e6_memory_causality_confirm/E6_REPORT.md",
+    "localFileMatchesGitBlob": true
+  },
+  {
+    "file": "E7D_bank.py",
+    "gitBlob": "3d684e1b15469f9e23d02a54113edda4960d15cb",
+    "url": "https://github.com/type37c/oscillator-arithmetic/blob/01d84b5a41cc8d521724bbaa0127601b086b9936/experiments/e7d_form_action_memory/bank.py",
+    "localFileMatchesGitBlob": true
+  },
+  {
+    "file": "E7D_closed_PLAN.md",
+    "gitBlob": "f82df7e19c74628e84c3c367a3fcbc056468d7bc",
+    "url": "https://github.com/type37c/oscillator-arithmetic/blob/01d84b5a41cc8d521724bbaa0127601b086b9936/experiments/e7d_closed/PLAN.md",
+    "localFileMatchesGitBlob": true
+  }
+]

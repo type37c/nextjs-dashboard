@@ -1,0 +1,21 @@
+{
+  "status": "manuscript editing checks only; no acquisition or new inference",
+  "experiment_commit": "bed5dc0462483997fa517fe0c91e997e81635b9a",
+  "checks": {
+    "new_numeric_citations_match_saved_analysis": true,
+    "nine_new_primary_snapshots_match_pinned_commit": true,
+    "new_reference_definitions_and_local_targets_exist": true,
+    "appendix_A_and_reader_protocol_synchronized": true,
+    "appendix_B_and_evidence_map_synchronized": true,
+    "figure3_matches_result_artifact": true,
+    "experiment_artifacts_unchanged": 2251
+  },
+  "manuscript_files": {
+    "DETAILED_OUTLINE_2026-11-06.md": "2f61074fdc87f00e13764220828d82c0e8f4488e3551abd1d7d585ab0d077000",
+    "SECTION_4.en.md": "66906208aa7fb09347410e17d608b93ca2ad8dfcd8bc0bbb6ee63f6ce2239472",
+    "EVIDENCE_MAP.ja.md": "eae9009b25dfa3af8002c3fe64e8f6bd06c7c27f62e8d60b061c915bf0a0d78e",
+    "READER_PROTOCOL.ja.md": "cffccc8144b22be80ef333198310126c763c5f841561ec962e14a351668782ac",
+    "WRITING_CHANGELOG.ja.md": "b69402ddfd1e9f9099b572574fcb2704d336967dfa72c8dd1fede69582cb0f73",
+    "README.md": "963b1ea76541b3f1bf5f14976622c9ed34a417ea03723c624151429713c91791"
+  }
+}

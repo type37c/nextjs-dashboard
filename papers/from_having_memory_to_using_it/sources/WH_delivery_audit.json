@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "chain_export_rows": 81920,
+  "decision_export_rows": 573440,
+  "chain_means_match_frozen_analysis": true,
+  "decision_failures_match_frozen_analysis": true,
+  "main_unique_phase_tokens": 7200,
+  "canonical_cohort_audits": 100,
+  "npz_generation_hashes_checked": 840,
+  "frozen_files_unchanged": 1330,
+  "maximum_readout_iterations": 253
+}

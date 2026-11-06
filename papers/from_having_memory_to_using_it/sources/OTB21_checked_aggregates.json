@@ -1,0 +1,78 @@
+{
+  "sourceRecords": "/workspace/learning-readiness-public/results/otb21_readiness_history_validation/history_20261105/records.json",
+  "checks": [
+    {
+      "group": "1536/usual",
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 64,
+      "joint_adaptation_and_retention": 64,
+      "mean_total_live_steps": 14632.0
+    },
+    {
+      "group": "1536/fixed4096",
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 64,
+      "joint_adaptation_and_retention": 64,
+      "mean_total_live_steps": 18728.0
+    },
+    {
+      "group": "1536/guard",
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 128,
+      "joint_adaptation_and_retention": 128,
+      "mean_total_live_steps": 30040.25
+    },
+    {
+      "group": "2048/usual",
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 64,
+      "joint_adaptation_and_retention": 64,
+      "mean_total_live_steps": 15144.0
+    },
+    {
+      "group": "2048/fixed4096",
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 64,
+      "joint_adaptation_and_retention": 64,
+      "mean_total_live_steps": 19240.0
+    },
+    {
+      "group": "2048/guard",
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 128,
+      "joint_adaptation_and_retention": 128,
+      "mean_total_live_steps": 30552.25
+    },
+    {
+      "group": "4096/usual",
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 64,
+      "joint_adaptation_and_retention": 64,
+      "mean_total_live_steps": 17192.0
+    },
+    {
+      "group": "4096/fixed4096",
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 128,
+      "joint_adaptation_and_retention": 128,
+      "mean_total_live_steps": 21288.0
+    },
+    {
+      "group": "4096/guard",
+      "trials": 128,
+      "current_context_correct": 128,
+      "untouched_operation1_correct": 128,
+      "joint_adaptation_and_retention": 128,
+      "mean_total_live_steps": 32600.25
+    }
+  ],
+  "scope": "Reaggregated stored records only; no dynamics rerun"
+}

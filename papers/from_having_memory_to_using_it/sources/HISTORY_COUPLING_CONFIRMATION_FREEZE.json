@@ -1,0 +1,16 @@
+{
+  "status": "analysis and acquisition frozen before fresh-cohort generation; no external preregistration",
+  "utc": "2026-11-06T04:48:53.699290+00:00",
+  "code_commit": "2e69572e75a211d7a4d15397d36e9825dc96285f",
+  "hashes": {
+    "experiments/history_coupling_confirmation/audit_dynamics.py": "7ca8e56d25db9cff93e7433d80936fd6d836e5ce8f06b0c6d5914ed227e98c84",
+    "experiments/history_coupling_confirmation/confirm.py": "902fb267ba0a5f3562d9d5802086db218d950d0fe445e4e2faa787a85e0923b7",
+    "experiments/history_coupling_confirmation/PROTOCOL.ja.md": "fed98726d5ee5929235cfe45ee980a6450fbe1c04e4adaafa66735ef2aa6050c",
+    "experiments/history_coupling_confirmation/DESIGN_PARAMETERS.json": "6dede2fbe850b33bc198a61c447406f50727b531ccef250629a04369c3d22cf9",
+    "experiments/history_coupling_confirmation/logs/preflight.log": "17489c5e172ab574e21ff646e52f8961b3c5ba8855a21811754c51e32bf5b28a",
+    "experiments/history_coupling_pilot/pilot.py": "e5151202801265c71f3f6fed9f953358566196671a442b7f79a0dfe5f046a27a",
+    "experiments/history_coupling_pilot/analyse.py": "c22da805792816be8dd837b4fd4fc6c3954855d5375ad9c0410eb9d0d603f057",
+    "experiments/history_coupling_pilot/verify.py": "fc104c9be4cb11ad9a54d69be32cc402111cfb8a14e238a54b3c946200785d8d",
+    "experiments/history_coupling_pilot/requirements.txt": "5a350b1136d31e595fe6df8206a7e3bea2e725b5be6dd83f6ea98bcb95fcdd3a"
+  }
+}

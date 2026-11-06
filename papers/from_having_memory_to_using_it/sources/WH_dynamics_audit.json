@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "trajectories": 192,
+  "own_and_donor_boundary_checks": 128,
+  "max_abs_error": 0.0,
+  "scope": "within-project scalar replay of predetermined trajectories, not external replication"
+}

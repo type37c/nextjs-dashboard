@@ -1,0 +1,16 @@
+{
+  "key": "ALIF2018",
+  "paper_id": "arxiv:1803.09574",
+  "title": "Long short-term memory and learning-to-learn in networks of spiking neurons",
+  "authors": "Guillaume Bellec, Darjan Salaj, Anand Subramoney, Robert Legenstein, Wolfgang Maass",
+  "year_cited": 2018,
+  "url": "https://arxiv.org/abs/1803.09574",
+  "locator": "Section 2, equations 1–2; Section 3",
+  "claim_used": "Adaptive thresholds depend on prior firing and decay; synaptic weights are optimized with BPTT.",
+  "short_source_excerpt": "We assume that the firing threshold Bj​(t)B\\_{j}(t) of neuron jj increases by some fixed amount β/τa,j\\\\beta/\\\\tau\\_{a,j} for each spike of this neuron jj, and then decays exponentially back to a baseline value …",
+  "retrieval_method": "retrieved in-body passages; not a complete paper read",
+  "coverage": "relevant method passages; not exhaustive literature coverage",
+  "retrieval_date": "2026-11-06",
+  "raw_retrieval_sha256": "d51abcf1deae3f1c5471c40fdc265cbce92a28a49bb761cb7e3723ae7b693591",
+  "raw_record_scope": "full retrieval remains in local scratch, not redistributed in the manuscript bundle"
+}
